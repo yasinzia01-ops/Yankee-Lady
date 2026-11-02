@@ -1,0 +1,552 @@
+{
+  "/gallery/2025-aerial-lake-ontario.webp": {
+    "width": 1400,
+    "height": 934,
+    "src": "/media/gallery-2025-aerial-lake-ontario-2d78f057bb-1600.webp",
+    "srcSet": "/media/gallery-2025-aerial-lake-ontario-2d78f057bb-480.webp 480w, /media/gallery-2025-aerial-lake-ontario-2d78f057bb-960.webp 960w, /media/gallery-2025-aerial-lake-ontario-2d78f057bb-1600.webp 1400w",
+    "avifSrc": "/media/gallery-2025-aerial-lake-ontario-2d78f057bb-1600.avif",
+    "avifSrcSet": "/media/gallery-2025-aerial-lake-ontario-2d78f057bb-480.avif 480w, /media/gallery-2025-aerial-lake-ontario-2d78f057bb-960.avif 960w, /media/gallery-2025-aerial-lake-ontario-2d78f057bb-1600.avif 1400w",
+    "small": "/media/gallery-2025-aerial-lake-ontario-2d78f057bb-480.webp",
+    "medium": "/media/gallery-2025-aerial-lake-ontario-2d78f057bb-960.webp"
+  },
+  "/gallery/2025-aerial-skyline.webp": {
+    "width": 1400,
+    "height": 934,
+    "src": "/media/gallery-2025-aerial-skyline-06bb98d46a-1600.webp",
+    "srcSet": "/media/gallery-2025-aerial-skyline-06bb98d46a-480.webp 480w, /media/gallery-2025-aerial-skyline-06bb98d46a-960.webp 960w, /media/gallery-2025-aerial-skyline-06bb98d46a-1600.webp 1400w",
+    "avifSrc": "/media/gallery-2025-aerial-skyline-06bb98d46a-1600.avif",
+    "avifSrcSet": "/media/gallery-2025-aerial-skyline-06bb98d46a-480.avif 480w, /media/gallery-2025-aerial-skyline-06bb98d46a-960.avif 960w, /media/gallery-2025-aerial-skyline-06bb98d46a-1600.avif 1400w",
+    "small": "/media/gallery-2025-aerial-skyline-06bb98d46a-480.webp",
+    "medium": "/media/gallery-2025-aerial-skyline-06bb98d46a-960.webp"
+  },
+  "/gallery/2025-dinner-table.webp": {
+    "width": 1400,
+    "height": 976,
+    "src": "/media/gallery-2025-dinner-table-f2c058a9d0-1600.webp",
+    "srcSet": "/media/gallery-2025-dinner-table-f2c058a9d0-480.webp 480w, /media/gallery-2025-dinner-table-f2c058a9d0-960.webp 960w, /media/gallery-2025-dinner-table-f2c058a9d0-1600.webp 1400w",
+    "avifSrc": "/media/gallery-2025-dinner-table-f2c058a9d0-1600.avif",
+    "avifSrcSet": "/media/gallery-2025-dinner-table-f2c058a9d0-480.avif 480w, /media/gallery-2025-dinner-table-f2c058a9d0-960.avif 960w, /media/gallery-2025-dinner-table-f2c058a9d0-1600.avif 1400w",
+    "small": "/media/gallery-2025-dinner-table-f2c058a9d0-480.webp",
+    "medium": "/media/gallery-2025-dinner-table-f2c058a9d0-960.webp"
+  },
+  "/gallery/2025-guests-lunch.webp": {
+    "width": 1400,
+    "height": 934,
+    "src": "/media/gallery-2025-guests-lunch-342c34a813-1600.webp",
+    "srcSet": "/media/gallery-2025-guests-lunch-342c34a813-480.webp 480w, /media/gallery-2025-guests-lunch-342c34a813-960.webp 960w, /media/gallery-2025-guests-lunch-342c34a813-1600.webp 1400w",
+    "avifSrc": "/media/gallery-2025-guests-lunch-342c34a813-1600.avif",
+    "avifSrcSet": "/media/gallery-2025-guests-lunch-342c34a813-480.avif 480w, /media/gallery-2025-guests-lunch-342c34a813-960.avif 960w, /media/gallery-2025-guests-lunch-342c34a813-1600.avif 1400w",
+    "small": "/media/gallery-2025-guests-lunch-342c34a813-480.webp",
+    "medium": "/media/gallery-2025-guests-lunch-342c34a813-960.webp"
+  },
+  "/gallery/2025-guests-upper-deck.webp": {
+    "width": 1400,
+    "height": 934,
+    "src": "/media/gallery-2025-guests-upper-deck-6d9e236971-1600.webp",
+    "srcSet": "/media/gallery-2025-guests-upper-deck-6d9e236971-480.webp 480w, /media/gallery-2025-guests-upper-deck-6d9e236971-960.webp 960w, /media/gallery-2025-guests-upper-deck-6d9e236971-1600.webp 1400w",
+    "avifSrc": "/media/gallery-2025-guests-upper-deck-6d9e236971-1600.avif",
+    "avifSrcSet": "/media/gallery-2025-guests-upper-deck-6d9e236971-480.avif 480w, /media/gallery-2025-guests-upper-deck-6d9e236971-960.avif 960w, /media/gallery-2025-guests-upper-deck-6d9e236971-1600.avif 1400w",
+    "small": "/media/gallery-2025-guests-upper-deck-6d9e236971-480.webp",
+    "medium": "/media/gallery-2025-guests-upper-deck-6d9e236971-960.webp"
+  },
+  "/gallery/aerial.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-aerial-b079a046a8-1600.webp",
+    "srcSet": "/media/gallery-aerial-b079a046a8-480.webp 480w, /media/gallery-aerial-b079a046a8-960.webp 960w, /media/gallery-aerial-b079a046a8-1600.webp 1600w",
+    "avifSrc": "/media/gallery-aerial-b079a046a8-1600.avif",
+    "avifSrcSet": "/media/gallery-aerial-b079a046a8-480.avif 480w, /media/gallery-aerial-b079a046a8-960.avif 960w, /media/gallery-aerial-b079a046a8-1600.avif 1600w",
+    "small": "/media/gallery-aerial-b079a046a8-480.webp",
+    "medium": "/media/gallery-aerial-b079a046a8-960.webp"
+  },
+  "/gallery/birthday-white-party.jpg": {
+    "width": 1440,
+    "height": 1799,
+    "src": "/media/gallery-birthday-white-party-c3236c92b7-1600.webp",
+    "srcSet": "/media/gallery-birthday-white-party-c3236c92b7-480.webp 480w, /media/gallery-birthday-white-party-c3236c92b7-960.webp 960w, /media/gallery-birthday-white-party-c3236c92b7-1600.webp 1440w",
+    "avifSrc": "/media/gallery-birthday-white-party-c3236c92b7-1600.avif",
+    "avifSrcSet": "/media/gallery-birthday-white-party-c3236c92b7-480.avif 480w, /media/gallery-birthday-white-party-c3236c92b7-960.avif 960w, /media/gallery-birthday-white-party-c3236c92b7-1600.avif 1440w",
+    "small": "/media/gallery-birthday-white-party-c3236c92b7-480.webp",
+    "medium": "/media/gallery-birthday-white-party-c3236c92b7-960.webp"
+  },
+  "/gallery/celebrating-40-years.png": {
+    "width": 2428,
+    "height": 1628,
+    "src": "/media/gallery-celebrating-40-years-9015149194-1600.webp",
+    "srcSet": "/media/gallery-celebrating-40-years-9015149194-480.webp 480w, /media/gallery-celebrating-40-years-9015149194-960.webp 960w, /media/gallery-celebrating-40-years-9015149194-1600.webp 1600w",
+    "avifSrc": "/media/gallery-celebrating-40-years-9015149194-1600.avif",
+    "avifSrcSet": "/media/gallery-celebrating-40-years-9015149194-480.avif 480w, /media/gallery-celebrating-40-years-9015149194-960.avif 960w, /media/gallery-celebrating-40-years-9015149194-1600.avif 1600w",
+    "small": "/media/gallery-celebrating-40-years-9015149194-480.webp",
+    "medium": "/media/gallery-celebrating-40-years-9015149194-960.webp"
+  },
+  "/gallery/celebration-518824112.jpg": {
+    "width": 1440,
+    "height": 1900,
+    "src": "/media/gallery-celebration-518824112-21d3cc7a43-1600.webp",
+    "srcSet": "/media/gallery-celebration-518824112-21d3cc7a43-480.webp 480w, /media/gallery-celebration-518824112-21d3cc7a43-960.webp 960w, /media/gallery-celebration-518824112-21d3cc7a43-1600.webp 1440w",
+    "avifSrc": "/media/gallery-celebration-518824112-21d3cc7a43-1600.avif",
+    "avifSrcSet": "/media/gallery-celebration-518824112-21d3cc7a43-480.avif 480w, /media/gallery-celebration-518824112-21d3cc7a43-960.avif 960w, /media/gallery-celebration-518824112-21d3cc7a43-1600.avif 1440w",
+    "small": "/media/gallery-celebration-518824112-21d3cc7a43-480.webp",
+    "medium": "/media/gallery-celebration-518824112-21d3cc7a43-960.webp"
+  },
+  "/gallery/deck.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-deck-d27d0a01ba-1600.webp",
+    "srcSet": "/media/gallery-deck-d27d0a01ba-480.webp 480w, /media/gallery-deck-d27d0a01ba-960.webp 960w, /media/gallery-deck-d27d0a01ba-1600.webp 1600w",
+    "avifSrc": "/media/gallery-deck-d27d0a01ba-1600.avif",
+    "avifSrcSet": "/media/gallery-deck-d27d0a01ba-480.avif 480w, /media/gallery-deck-d27d0a01ba-960.avif 960w, /media/gallery-deck-d27d0a01ba-1600.avif 1600w",
+    "small": "/media/gallery-deck-d27d0a01ba-480.webp",
+    "medium": "/media/gallery-deck-d27d0a01ba-960.webp"
+  },
+  "/gallery/dji-20250912182638-0045-d-scaled.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-1600.webp",
+    "srcSet": "/media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-480.webp 480w, /media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-960.webp 960w, /media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-1600.webp 1600w",
+    "avifSrc": "/media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-1600.avif",
+    "avifSrcSet": "/media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-480.avif 480w, /media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-960.avif 960w, /media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-1600.avif 1600w",
+    "small": "/media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-480.webp",
+    "medium": "/media/gallery-dji-20250912182638-0045-d-scaled-3f0ccea6d7-960.webp"
+  },
+  "/gallery/dji-20250914200827-0304-d.jpg": {
+    "width": 4032,
+    "height": 2268,
+    "src": "/media/gallery-dji-20250914200827-0304-d-a16589a929-1600.webp",
+    "srcSet": "/media/gallery-dji-20250914200827-0304-d-a16589a929-480.webp 480w, /media/gallery-dji-20250914200827-0304-d-a16589a929-960.webp 960w, /media/gallery-dji-20250914200827-0304-d-a16589a929-1600.webp 1600w",
+    "avifSrc": "/media/gallery-dji-20250914200827-0304-d-a16589a929-1600.avif",
+    "avifSrcSet": "/media/gallery-dji-20250914200827-0304-d-a16589a929-480.avif 480w, /media/gallery-dji-20250914200827-0304-d-a16589a929-960.avif 960w, /media/gallery-dji-20250914200827-0304-d-a16589a929-1600.avif 1600w",
+    "small": "/media/gallery-dji-20250914200827-0304-d-a16589a929-480.webp",
+    "medium": "/media/gallery-dji-20250914200827-0304-d-a16589a929-960.webp"
+  },
+  "/gallery/evening.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-evening-b4410723ec-1600.webp",
+    "srcSet": "/media/gallery-evening-b4410723ec-480.webp 480w, /media/gallery-evening-b4410723ec-960.webp 960w, /media/gallery-evening-b4410723ec-1600.webp 1600w",
+    "avifSrc": "/media/gallery-evening-b4410723ec-1600.avif",
+    "avifSrcSet": "/media/gallery-evening-b4410723ec-480.avif 480w, /media/gallery-evening-b4410723ec-960.avif 960w, /media/gallery-evening-b4410723ec-1600.avif 1600w",
+    "small": "/media/gallery-evening-b4410723ec-480.webp",
+    "medium": "/media/gallery-evening-b4410723ec-960.webp"
+  },
+  "/gallery/event-1.jpg": {
+    "width": 1800,
+    "height": 1200,
+    "src": "/media/gallery-event-1-7e39be4c61-1600.webp",
+    "srcSet": "/media/gallery-event-1-7e39be4c61-480.webp 480w, /media/gallery-event-1-7e39be4c61-960.webp 960w, /media/gallery-event-1-7e39be4c61-1600.webp 1600w",
+    "avifSrc": "/media/gallery-event-1-7e39be4c61-1600.avif",
+    "avifSrcSet": "/media/gallery-event-1-7e39be4c61-480.avif 480w, /media/gallery-event-1-7e39be4c61-960.avif 960w, /media/gallery-event-1-7e39be4c61-1600.avif 1600w",
+    "small": "/media/gallery-event-1-7e39be4c61-480.webp",
+    "medium": "/media/gallery-event-1-7e39be4c61-960.webp"
+  },
+  "/gallery/event-2.jpg": {
+    "width": 1800,
+    "height": 1165,
+    "src": "/media/gallery-event-2-bd7b476590-1600.webp",
+    "srcSet": "/media/gallery-event-2-bd7b476590-480.webp 480w, /media/gallery-event-2-bd7b476590-960.webp 960w, /media/gallery-event-2-bd7b476590-1600.webp 1600w",
+    "avifSrc": "/media/gallery-event-2-bd7b476590-1600.avif",
+    "avifSrcSet": "/media/gallery-event-2-bd7b476590-480.avif 480w, /media/gallery-event-2-bd7b476590-960.avif 960w, /media/gallery-event-2-bd7b476590-1600.avif 1600w",
+    "small": "/media/gallery-event-2-bd7b476590-480.webp",
+    "medium": "/media/gallery-event-2-bd7b476590-960.webp"
+  },
+  "/gallery/event-3.jpg": {
+    "width": 1800,
+    "height": 1001,
+    "src": "/media/gallery-event-3-e3939127ce-1600.webp",
+    "srcSet": "/media/gallery-event-3-e3939127ce-480.webp 480w, /media/gallery-event-3-e3939127ce-960.webp 960w, /media/gallery-event-3-e3939127ce-1600.webp 1600w",
+    "avifSrc": "/media/gallery-event-3-e3939127ce-1600.avif",
+    "avifSrcSet": "/media/gallery-event-3-e3939127ce-480.avif 480w, /media/gallery-event-3-e3939127ce-960.avif 960w, /media/gallery-event-3-e3939127ce-1600.avif 1600w",
+    "small": "/media/gallery-event-3-e3939127ce-480.webp",
+    "medium": "/media/gallery-event-3-e3939127ce-960.webp"
+  },
+  "/gallery/event-4.jpg": {
+    "width": 1800,
+    "height": 1076,
+    "src": "/media/gallery-event-4-a7224ef6f8-1600.webp",
+    "srcSet": "/media/gallery-event-4-a7224ef6f8-480.webp 480w, /media/gallery-event-4-a7224ef6f8-960.webp 960w, /media/gallery-event-4-a7224ef6f8-1600.webp 1600w",
+    "avifSrc": "/media/gallery-event-4-a7224ef6f8-1600.avif",
+    "avifSrcSet": "/media/gallery-event-4-a7224ef6f8-480.avif 480w, /media/gallery-event-4-a7224ef6f8-960.avif 960w, /media/gallery-event-4-a7224ef6f8-1600.avif 1600w",
+    "small": "/media/gallery-event-4-a7224ef6f8-480.webp",
+    "medium": "/media/gallery-event-4-a7224ef6f8-960.webp"
+  },
+  "/gallery/event-5.jpg": {
+    "width": 1800,
+    "height": 1151,
+    "src": "/media/gallery-event-5-8f2512b2a1-1600.webp",
+    "srcSet": "/media/gallery-event-5-8f2512b2a1-480.webp 480w, /media/gallery-event-5-8f2512b2a1-960.webp 960w, /media/gallery-event-5-8f2512b2a1-1600.webp 1600w",
+    "avifSrc": "/media/gallery-event-5-8f2512b2a1-1600.avif",
+    "avifSrcSet": "/media/gallery-event-5-8f2512b2a1-480.avif 480w, /media/gallery-event-5-8f2512b2a1-960.avif 960w, /media/gallery-event-5-8f2512b2a1-1600.avif 1600w",
+    "small": "/media/gallery-event-5-8f2512b2a1-480.webp",
+    "medium": "/media/gallery-event-5-8f2512b2a1-960.webp"
+  },
+  "/gallery/formal-dining-setup.jpg": {
+    "width": 1440,
+    "height": 1818,
+    "src": "/media/gallery-formal-dining-setup-82428f01b3-1600.webp",
+    "srcSet": "/media/gallery-formal-dining-setup-82428f01b3-480.webp 480w, /media/gallery-formal-dining-setup-82428f01b3-960.webp 960w, /media/gallery-formal-dining-setup-82428f01b3-1600.webp 1440w",
+    "avifSrc": "/media/gallery-formal-dining-setup-82428f01b3-1600.avif",
+    "avifSrcSet": "/media/gallery-formal-dining-setup-82428f01b3-480.avif 480w, /media/gallery-formal-dining-setup-82428f01b3-960.avif 960w, /media/gallery-formal-dining-setup-82428f01b3-1600.avif 1440w",
+    "small": "/media/gallery-formal-dining-setup-82428f01b3-480.webp",
+    "medium": "/media/gallery-formal-dining-setup-82428f01b3-960.webp"
+  },
+  "/gallery/harbour.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-harbour-dc03319caf-1600.webp",
+    "srcSet": "/media/gallery-harbour-dc03319caf-480.webp 480w, /media/gallery-harbour-dc03319caf-960.webp 960w, /media/gallery-harbour-dc03319caf-1600.webp 1600w",
+    "avifSrc": "/media/gallery-harbour-dc03319caf-1600.avif",
+    "avifSrcSet": "/media/gallery-harbour-dc03319caf-480.avif 480w, /media/gallery-harbour-dc03319caf-960.avif 960w, /media/gallery-harbour-dc03319caf-1600.avif 1600w",
+    "small": "/media/gallery-harbour-dc03319caf-480.webp",
+    "medium": "/media/gallery-harbour-dc03319caf-960.webp"
+  },
+  "/gallery/home-slide-2.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "src": "/media/gallery-home-slide-2-0cbbbecec2-1600.webp",
+    "srcSet": "/media/gallery-home-slide-2-0cbbbecec2-480.webp 480w, /media/gallery-home-slide-2-0cbbbecec2-960.webp 960w, /media/gallery-home-slide-2-0cbbbecec2-1600.webp 1000w",
+    "avifSrc": "/media/gallery-home-slide-2-0cbbbecec2-1600.avif",
+    "avifSrcSet": "/media/gallery-home-slide-2-0cbbbecec2-480.avif 480w, /media/gallery-home-slide-2-0cbbbecec2-960.avif 960w, /media/gallery-home-slide-2-0cbbbecec2-1600.avif 1000w",
+    "small": "/media/gallery-home-slide-2-0cbbbecec2-480.webp",
+    "medium": "/media/gallery-home-slide-2-0cbbbecec2-960.webp"
+  },
+  "/gallery/img-2630.jpg": {
+    "width": 4032,
+    "height": 3024,
+    "src": "/media/gallery-img-2630-77e4c5375e-1600.webp",
+    "srcSet": "/media/gallery-img-2630-77e4c5375e-480.webp 480w, /media/gallery-img-2630-77e4c5375e-960.webp 960w, /media/gallery-img-2630-77e4c5375e-1600.webp 1600w",
+    "avifSrc": "/media/gallery-img-2630-77e4c5375e-1600.avif",
+    "avifSrcSet": "/media/gallery-img-2630-77e4c5375e-480.avif 480w, /media/gallery-img-2630-77e4c5375e-960.avif 960w, /media/gallery-img-2630-77e4c5375e-1600.avif 1600w",
+    "small": "/media/gallery-img-2630-77e4c5375e-480.webp",
+    "medium": "/media/gallery-img-2630-77e4c5375e-960.webp"
+  },
+  "/gallery/uicon-event-3.jpg": {
+    "width": 6982,
+    "height": 4658,
+    "src": "/media/gallery-uicon-event-3-9e83a5097a-1600.webp",
+    "srcSet": "/media/gallery-uicon-event-3-9e83a5097a-480.webp 480w, /media/gallery-uicon-event-3-9e83a5097a-960.webp 960w, /media/gallery-uicon-event-3-9e83a5097a-1600.webp 1600w",
+    "avifSrc": "/media/gallery-uicon-event-3-9e83a5097a-1600.avif",
+    "avifSrcSet": "/media/gallery-uicon-event-3-9e83a5097a-480.avif 480w, /media/gallery-uicon-event-3-9e83a5097a-960.avif 960w, /media/gallery-uicon-event-3-9e83a5097a-1600.avif 1600w",
+    "small": "/media/gallery-uicon-event-3-9e83a5097a-480.webp",
+    "medium": "/media/gallery-uicon-event-3-9e83a5097a-960.webp"
+  },
+  "/gallery/uicon-event-4.jpg": {
+    "width": 6938,
+    "height": 4628,
+    "src": "/media/gallery-uicon-event-4-92da17f038-1600.webp",
+    "srcSet": "/media/gallery-uicon-event-4-92da17f038-480.webp 480w, /media/gallery-uicon-event-4-92da17f038-960.webp 960w, /media/gallery-uicon-event-4-92da17f038-1600.webp 1600w",
+    "avifSrc": "/media/gallery-uicon-event-4-92da17f038-1600.avif",
+    "avifSrcSet": "/media/gallery-uicon-event-4-92da17f038-480.avif 480w, /media/gallery-uicon-event-4-92da17f038-960.avif 960w, /media/gallery-uicon-event-4-92da17f038-1600.avif 1600w",
+    "small": "/media/gallery-uicon-event-4-92da17f038-480.webp",
+    "medium": "/media/gallery-uicon-event-4-92da17f038-960.webp"
+  },
+  "/gallery/verity-wedding-boarding.webp": {
+    "width": 1024,
+    "height": 683,
+    "src": "/media/gallery-verity-wedding-boarding-73d4aacc85-1600.webp",
+    "srcSet": "/media/gallery-verity-wedding-boarding-73d4aacc85-480.webp 480w, /media/gallery-verity-wedding-boarding-73d4aacc85-960.webp 960w, /media/gallery-verity-wedding-boarding-73d4aacc85-1600.webp 1024w",
+    "avifSrc": "/media/gallery-verity-wedding-boarding-73d4aacc85-1600.avif",
+    "avifSrcSet": "/media/gallery-verity-wedding-boarding-73d4aacc85-480.avif 480w, /media/gallery-verity-wedding-boarding-73d4aacc85-960.avif 960w, /media/gallery-verity-wedding-boarding-73d4aacc85-1600.avif 1024w",
+    "small": "/media/gallery-verity-wedding-boarding-73d4aacc85-480.webp",
+    "medium": "/media/gallery-verity-wedding-boarding-73d4aacc85-960.webp"
+  },
+  "/gallery/verity-yacht-docked.webp": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-verity-yacht-docked-08deac7233-1600.webp",
+    "srcSet": "/media/gallery-verity-yacht-docked-08deac7233-480.webp 480w, /media/gallery-verity-yacht-docked-08deac7233-960.webp 960w, /media/gallery-verity-yacht-docked-08deac7233-1600.webp 1600w",
+    "avifSrc": "/media/gallery-verity-yacht-docked-08deac7233-1600.avif",
+    "avifSrcSet": "/media/gallery-verity-yacht-docked-08deac7233-480.avif 480w, /media/gallery-verity-yacht-docked-08deac7233-960.avif 960w, /media/gallery-verity-yacht-docked-08deac7233-1600.avif 1600w",
+    "small": "/media/gallery-verity-yacht-docked-08deac7233-480.webp",
+    "medium": "/media/gallery-verity-yacht-docked-08deac7233-960.webp"
+  },
+  "/gallery/verity-yacht-sunset.webp": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-verity-yacht-sunset-3943f355f6-1600.webp",
+    "srcSet": "/media/gallery-verity-yacht-sunset-3943f355f6-480.webp 480w, /media/gallery-verity-yacht-sunset-3943f355f6-960.webp 960w, /media/gallery-verity-yacht-sunset-3943f355f6-1600.webp 1600w",
+    "avifSrc": "/media/gallery-verity-yacht-sunset-3943f355f6-1600.avif",
+    "avifSrcSet": "/media/gallery-verity-yacht-sunset-3943f355f6-480.avif 480w, /media/gallery-verity-yacht-sunset-3943f355f6-960.avif 960w, /media/gallery-verity-yacht-sunset-3943f355f6-1600.avif 1600w",
+    "small": "/media/gallery-verity-yacht-sunset-3943f355f6-480.webp",
+    "medium": "/media/gallery-verity-yacht-sunset-3943f355f6-960.webp"
+  },
+  "/gallery/yacht-aerial-cruising.jpg": {
+    "width": 2000,
+    "height": 1272,
+    "src": "/media/gallery-yacht-aerial-cruising-a93cc97b15-1600.webp",
+    "srcSet": "/media/gallery-yacht-aerial-cruising-a93cc97b15-480.webp 480w, /media/gallery-yacht-aerial-cruising-a93cc97b15-960.webp 960w, /media/gallery-yacht-aerial-cruising-a93cc97b15-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yacht-aerial-cruising-a93cc97b15-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-aerial-cruising-a93cc97b15-480.avif 480w, /media/gallery-yacht-aerial-cruising-a93cc97b15-960.avif 960w, /media/gallery-yacht-aerial-cruising-a93cc97b15-1600.avif 1600w",
+    "small": "/media/gallery-yacht-aerial-cruising-a93cc97b15-480.webp",
+    "medium": "/media/gallery-yacht-aerial-cruising-a93cc97b15-960.webp"
+  },
+  "/gallery/yacht-catering-buffet.jpg": {
+    "width": 2560,
+    "height": 1375,
+    "src": "/media/gallery-yacht-catering-buffet-ec3e6df14b-1600.webp",
+    "srcSet": "/media/gallery-yacht-catering-buffet-ec3e6df14b-480.webp 480w, /media/gallery-yacht-catering-buffet-ec3e6df14b-960.webp 960w, /media/gallery-yacht-catering-buffet-ec3e6df14b-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yacht-catering-buffet-ec3e6df14b-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-catering-buffet-ec3e6df14b-480.avif 480w, /media/gallery-yacht-catering-buffet-ec3e6df14b-960.avif 960w, /media/gallery-yacht-catering-buffet-ec3e6df14b-1600.avif 1600w",
+    "small": "/media/gallery-yacht-catering-buffet-ec3e6df14b-480.webp",
+    "medium": "/media/gallery-yacht-catering-buffet-ec3e6df14b-960.webp"
+  },
+  "/gallery/yacht-cruising-sunset.jpg": {
+    "width": 1131,
+    "height": 1414,
+    "src": "/media/gallery-yacht-cruising-sunset-0aa4f3b058-1600.webp",
+    "srcSet": "/media/gallery-yacht-cruising-sunset-0aa4f3b058-480.webp 480w, /media/gallery-yacht-cruising-sunset-0aa4f3b058-960.webp 960w, /media/gallery-yacht-cruising-sunset-0aa4f3b058-1600.webp 1131w",
+    "avifSrc": "/media/gallery-yacht-cruising-sunset-0aa4f3b058-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-cruising-sunset-0aa4f3b058-480.avif 480w, /media/gallery-yacht-cruising-sunset-0aa4f3b058-960.avif 960w, /media/gallery-yacht-cruising-sunset-0aa4f3b058-1600.avif 1131w",
+    "small": "/media/gallery-yacht-cruising-sunset-0aa4f3b058-480.webp",
+    "medium": "/media/gallery-yacht-cruising-sunset-0aa4f3b058-960.webp"
+  },
+  "/gallery/yacht-dusk-aerial.jpg": {
+    "width": 2000,
+    "height": 1310,
+    "src": "/media/gallery-yacht-dusk-aerial-8643ac4acd-1600.webp",
+    "srcSet": "/media/gallery-yacht-dusk-aerial-8643ac4acd-480.webp 480w, /media/gallery-yacht-dusk-aerial-8643ac4acd-960.webp 960w, /media/gallery-yacht-dusk-aerial-8643ac4acd-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yacht-dusk-aerial-8643ac4acd-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-dusk-aerial-8643ac4acd-480.avif 480w, /media/gallery-yacht-dusk-aerial-8643ac4acd-960.avif 960w, /media/gallery-yacht-dusk-aerial-8643ac4acd-1600.avif 1600w",
+    "small": "/media/gallery-yacht-dusk-aerial-8643ac4acd-480.webp",
+    "medium": "/media/gallery-yacht-dusk-aerial-8643ac4acd-960.webp"
+  },
+  "/gallery/yacht-fruit-display.jpg": {
+    "width": 1054,
+    "height": 1331,
+    "src": "/media/gallery-yacht-fruit-display-7fcdc0250b-1600.webp",
+    "srcSet": "/media/gallery-yacht-fruit-display-7fcdc0250b-480.webp 480w, /media/gallery-yacht-fruit-display-7fcdc0250b-960.webp 960w, /media/gallery-yacht-fruit-display-7fcdc0250b-1600.webp 1054w",
+    "avifSrc": "/media/gallery-yacht-fruit-display-7fcdc0250b-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-fruit-display-7fcdc0250b-480.avif 480w, /media/gallery-yacht-fruit-display-7fcdc0250b-960.avif 960w, /media/gallery-yacht-fruit-display-7fcdc0250b-1600.avif 1054w",
+    "small": "/media/gallery-yacht-fruit-display-7fcdc0250b-480.webp",
+    "medium": "/media/gallery-yacht-fruit-display-7fcdc0250b-960.webp"
+  },
+  "/gallery/yacht-grilled-salmon.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-yacht-grilled-salmon-2050a37b34-1600.webp",
+    "srcSet": "/media/gallery-yacht-grilled-salmon-2050a37b34-480.webp 480w, /media/gallery-yacht-grilled-salmon-2050a37b34-960.webp 960w, /media/gallery-yacht-grilled-salmon-2050a37b34-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yacht-grilled-salmon-2050a37b34-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-grilled-salmon-2050a37b34-480.avif 480w, /media/gallery-yacht-grilled-salmon-2050a37b34-960.avif 960w, /media/gallery-yacht-grilled-salmon-2050a37b34-1600.avif 1600w",
+    "small": "/media/gallery-yacht-grilled-salmon-2050a37b34-480.webp",
+    "medium": "/media/gallery-yacht-grilled-salmon-2050a37b34-960.webp"
+  },
+  "/gallery/yacht-life-ring.jpg": {
+    "width": 593,
+    "height": 747,
+    "src": "/media/gallery-yacht-life-ring-c8afce7427-960.webp",
+    "srcSet": "/media/gallery-yacht-life-ring-c8afce7427-480.webp 480w, /media/gallery-yacht-life-ring-c8afce7427-960.webp 593w",
+    "avifSrc": "/media/gallery-yacht-life-ring-c8afce7427-960.avif",
+    "avifSrcSet": "/media/gallery-yacht-life-ring-c8afce7427-480.avif 480w, /media/gallery-yacht-life-ring-c8afce7427-960.avif 593w",
+    "small": "/media/gallery-yacht-life-ring-c8afce7427-480.webp",
+    "medium": "/media/gallery-yacht-life-ring-c8afce7427-960.webp"
+  },
+  "/gallery/yacht-pasta-salad.jpg": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/gallery-yacht-pasta-salad-7fd91c025c-1600.webp",
+    "srcSet": "/media/gallery-yacht-pasta-salad-7fd91c025c-480.webp 480w, /media/gallery-yacht-pasta-salad-7fd91c025c-960.webp 960w, /media/gallery-yacht-pasta-salad-7fd91c025c-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yacht-pasta-salad-7fd91c025c-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-pasta-salad-7fd91c025c-480.avif 480w, /media/gallery-yacht-pasta-salad-7fd91c025c-960.avif 960w, /media/gallery-yacht-pasta-salad-7fd91c025c-1600.avif 1600w",
+    "small": "/media/gallery-yacht-pasta-salad-7fd91c025c-480.webp",
+    "medium": "/media/gallery-yacht-pasta-salad-7fd91c025c-960.webp"
+  },
+  "/gallery/yacht-steak-grill.jpg": {
+    "width": 1707,
+    "height": 2560,
+    "src": "/media/gallery-yacht-steak-grill-fe30f23752-1600.webp",
+    "srcSet": "/media/gallery-yacht-steak-grill-fe30f23752-480.webp 480w, /media/gallery-yacht-steak-grill-fe30f23752-960.webp 960w, /media/gallery-yacht-steak-grill-fe30f23752-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yacht-steak-grill-fe30f23752-1600.avif",
+    "avifSrcSet": "/media/gallery-yacht-steak-grill-fe30f23752-480.avif 480w, /media/gallery-yacht-steak-grill-fe30f23752-960.avif 960w, /media/gallery-yacht-steak-grill-fe30f23752-1600.avif 1600w",
+    "small": "/media/gallery-yacht-steak-grill-fe30f23752-480.webp",
+    "medium": "/media/gallery-yacht-steak-grill-fe30f23752-960.webp"
+  },
+  "/gallery/yankee-lady-cruises.webp": {
+    "width": 2400,
+    "height": 942,
+    "src": "/media/gallery-yankee-lady-cruises-8478287782-1600.webp",
+    "srcSet": "/media/gallery-yankee-lady-cruises-8478287782-480.webp 480w, /media/gallery-yankee-lady-cruises-8478287782-960.webp 960w, /media/gallery-yankee-lady-cruises-8478287782-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yankee-lady-cruises-8478287782-1600.avif",
+    "avifSrcSet": "/media/gallery-yankee-lady-cruises-8478287782-480.avif 480w, /media/gallery-yankee-lady-cruises-8478287782-960.avif 960w, /media/gallery-yankee-lady-cruises-8478287782-1600.avif 1600w",
+    "small": "/media/gallery-yankee-lady-cruises-8478287782-480.webp",
+    "medium": "/media/gallery-yankee-lady-cruises-8478287782-960.webp"
+  },
+  "/gallery/yankee-lady-gallery.webp": {
+    "width": 2400,
+    "height": 942,
+    "src": "/media/gallery-yankee-lady-gallery-cef703d4ba-1600.webp",
+    "srcSet": "/media/gallery-yankee-lady-gallery-cef703d4ba-480.webp 480w, /media/gallery-yankee-lady-gallery-cef703d4ba-960.webp 960w, /media/gallery-yankee-lady-gallery-cef703d4ba-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yankee-lady-gallery-cef703d4ba-1600.avif",
+    "avifSrcSet": "/media/gallery-yankee-lady-gallery-cef703d4ba-480.avif 480w, /media/gallery-yankee-lady-gallery-cef703d4ba-960.avif 960w, /media/gallery-yankee-lady-gallery-cef703d4ba-1600.avif 1600w",
+    "small": "/media/gallery-yankee-lady-gallery-cef703d4ba-480.webp",
+    "medium": "/media/gallery-yankee-lady-gallery-cef703d4ba-960.webp"
+  },
+  "/gallery/yankee-lady-story.jpg": {
+    "width": 2400,
+    "height": 942,
+    "src": "/media/gallery-yankee-lady-story-c0761076a5-1600.webp",
+    "srcSet": "/media/gallery-yankee-lady-story-c0761076a5-480.webp 480w, /media/gallery-yankee-lady-story-c0761076a5-960.webp 960w, /media/gallery-yankee-lady-story-c0761076a5-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yankee-lady-story-c0761076a5-1600.avif",
+    "avifSrcSet": "/media/gallery-yankee-lady-story-c0761076a5-480.avif 480w, /media/gallery-yankee-lady-story-c0761076a5-960.avif 960w, /media/gallery-yankee-lady-story-c0761076a5-1600.avif 1600w",
+    "small": "/media/gallery-yankee-lady-story-c0761076a5-480.webp",
+    "medium": "/media/gallery-yankee-lady-story-c0761076a5-960.webp"
+  },
+  "/gallery/yankee-lady-yacht-charters-1.jpg": {
+    "width": 1100,
+    "height": 1495,
+    "src": "/media/gallery-yankee-lady-yacht-charters-1-3259877d39-1600.webp",
+    "srcSet": "/media/gallery-yankee-lady-yacht-charters-1-3259877d39-480.webp 480w, /media/gallery-yankee-lady-yacht-charters-1-3259877d39-960.webp 960w, /media/gallery-yankee-lady-yacht-charters-1-3259877d39-1600.webp 1100w",
+    "avifSrc": "/media/gallery-yankee-lady-yacht-charters-1-3259877d39-1600.avif",
+    "avifSrcSet": "/media/gallery-yankee-lady-yacht-charters-1-3259877d39-480.avif 480w, /media/gallery-yankee-lady-yacht-charters-1-3259877d39-960.avif 960w, /media/gallery-yankee-lady-yacht-charters-1-3259877d39-1600.avif 1100w",
+    "small": "/media/gallery-yankee-lady-yacht-charters-1-3259877d39-480.webp",
+    "medium": "/media/gallery-yankee-lady-yacht-charters-1-3259877d39-960.webp"
+  },
+  "/gallery/yankee-lady-yacht-charters.jpg": {
+    "width": 1980,
+    "height": 1485,
+    "src": "/media/gallery-yankee-lady-yacht-charters-901c1f478e-1600.webp",
+    "srcSet": "/media/gallery-yankee-lady-yacht-charters-901c1f478e-480.webp 480w, /media/gallery-yankee-lady-yacht-charters-901c1f478e-960.webp 960w, /media/gallery-yankee-lady-yacht-charters-901c1f478e-1600.webp 1600w",
+    "avifSrc": "/media/gallery-yankee-lady-yacht-charters-901c1f478e-1600.avif",
+    "avifSrcSet": "/media/gallery-yankee-lady-yacht-charters-901c1f478e-480.avif 480w, /media/gallery-yankee-lady-yacht-charters-901c1f478e-960.avif 960w, /media/gallery-yankee-lady-yacht-charters-901c1f478e-1600.avif 1600w",
+    "small": "/media/gallery-yankee-lady-yacht-charters-901c1f478e-480.webp",
+    "medium": "/media/gallery-yankee-lady-yacht-charters-901c1f478e-960.webp"
+  },
+  "/originals/boarding.jpg": {
+    "width": 2786,
+    "height": 1550,
+    "src": "/media/originals-boarding-7a0169ae83-1600.webp",
+    "srcSet": "/media/originals-boarding-7a0169ae83-480.webp 480w, /media/originals-boarding-7a0169ae83-960.webp 960w, /media/originals-boarding-7a0169ae83-1600.webp 1600w",
+    "avifSrc": "/media/originals-boarding-7a0169ae83-1600.avif",
+    "avifSrcSet": "/media/originals-boarding-7a0169ae83-480.avif 480w, /media/originals-boarding-7a0169ae83-960.avif 960w, /media/originals-boarding-7a0169ae83-1600.avif 1600w",
+    "small": "/media/originals-boarding-7a0169ae83-480.webp",
+    "medium": "/media/originals-boarding-7a0169ae83-960.webp"
+  },
+  "/originals/cruising.jpg": {
+    "width": 2318,
+    "height": 1475,
+    "src": "/media/originals-cruising-1b001dbe60-1600.webp",
+    "srcSet": "/media/originals-cruising-1b001dbe60-480.webp 480w, /media/originals-cruising-1b001dbe60-960.webp 960w, /media/originals-cruising-1b001dbe60-1600.webp 1600w",
+    "avifSrc": "/media/originals-cruising-1b001dbe60-1600.avif",
+    "avifSrcSet": "/media/originals-cruising-1b001dbe60-480.avif 480w, /media/originals-cruising-1b001dbe60-960.avif 960w, /media/originals-cruising-1b001dbe60-1600.avif 1600w",
+    "small": "/media/originals-cruising-1b001dbe60-480.webp",
+    "medium": "/media/originals-cruising-1b001dbe60-960.webp"
+  },
+  "/originals/guests.jpg": {
+    "width": 2263,
+    "height": 1353,
+    "src": "/media/originals-guests-b88ccf7a41-1600.webp",
+    "srcSet": "/media/originals-guests-b88ccf7a41-480.webp 480w, /media/originals-guests-b88ccf7a41-960.webp 960w, /media/originals-guests-b88ccf7a41-1600.webp 1600w",
+    "avifSrc": "/media/originals-guests-b88ccf7a41-1600.avif",
+    "avifSrcSet": "/media/originals-guests-b88ccf7a41-480.avif 480w, /media/originals-guests-b88ccf7a41-960.avif 960w, /media/originals-guests-b88ccf7a41-1600.avif 1600w",
+    "small": "/media/originals-guests-b88ccf7a41-480.webp",
+    "medium": "/media/originals-guests-b88ccf7a41-960.webp"
+  },
+  "/originals/history-1984.jpg": {
+    "width": 2890,
+    "height": 1872,
+    "src": "/media/originals-history-1984-55a852ea51-1600.webp",
+    "srcSet": "/media/originals-history-1984-55a852ea51-480.webp 480w, /media/originals-history-1984-55a852ea51-960.webp 960w, /media/originals-history-1984-55a852ea51-1600.webp 1600w",
+    "avifSrc": "/media/originals-history-1984-55a852ea51-1600.avif",
+    "avifSrcSet": "/media/originals-history-1984-55a852ea51-480.avif 480w, /media/originals-history-1984-55a852ea51-960.avif 960w, /media/originals-history-1984-55a852ea51-1600.avif 1600w",
+    "small": "/media/originals-history-1984-55a852ea51-480.webp",
+    "medium": "/media/originals-history-1984-55a852ea51-960.webp"
+  },
+  "/originals/history-1992.jpg": {
+    "width": 3597,
+    "height": 2391,
+    "src": "/media/originals-history-1992-aeace31082-1600.webp",
+    "srcSet": "/media/originals-history-1992-aeace31082-480.webp 480w, /media/originals-history-1992-aeace31082-960.webp 960w, /media/originals-history-1992-aeace31082-1600.webp 1600w",
+    "avifSrc": "/media/originals-history-1992-aeace31082-1600.avif",
+    "avifSrcSet": "/media/originals-history-1992-aeace31082-480.avif 480w, /media/originals-history-1992-aeace31082-960.avif 960w, /media/originals-history-1992-aeace31082-1600.avif 1600w",
+    "small": "/media/originals-history-1992-aeace31082-480.webp",
+    "medium": "/media/originals-history-1992-aeace31082-960.webp"
+  },
+  "/originals/history-2000.webp": {
+    "width": 2560,
+    "height": 1707,
+    "src": "/media/originals-history-2000-08deac7233-1600.webp",
+    "srcSet": "/media/originals-history-2000-08deac7233-480.webp 480w, /media/originals-history-2000-08deac7233-960.webp 960w, /media/originals-history-2000-08deac7233-1600.webp 1600w",
+    "avifSrc": "/media/originals-history-2000-08deac7233-1600.avif",
+    "avifSrcSet": "/media/originals-history-2000-08deac7233-480.avif 480w, /media/originals-history-2000-08deac7233-960.avif 960w, /media/originals-history-2000-08deac7233-1600.avif 1600w",
+    "small": "/media/originals-history-2000-08deac7233-480.webp",
+    "medium": "/media/originals-history-2000-08deac7233-960.webp"
+  },
+  "/originals/history-2024.jpg": {
+    "width": 1440,
+    "height": 1900,
+    "src": "/media/originals-history-2024-21d3cc7a43-1600.webp",
+    "srcSet": "/media/originals-history-2024-21d3cc7a43-480.webp 480w, /media/originals-history-2024-21d3cc7a43-960.webp 960w, /media/originals-history-2024-21d3cc7a43-1600.webp 1440w",
+    "avifSrc": "/media/originals-history-2024-21d3cc7a43-1600.avif",
+    "avifSrcSet": "/media/originals-history-2024-21d3cc7a43-480.avif 480w, /media/originals-history-2024-21d3cc7a43-960.avif 960w, /media/originals-history-2024-21d3cc7a43-1600.avif 1440w",
+    "small": "/media/originals-history-2024-21d3cc7a43-480.webp",
+    "medium": "/media/originals-history-2024-21d3cc7a43-960.webp"
+  },
+  "/originals/story.jpg": {
+    "width": 2400,
+    "height": 942,
+    "src": "/media/originals-story-c0761076a5-1600.webp",
+    "srcSet": "/media/originals-story-c0761076a5-480.webp 480w, /media/originals-story-c0761076a5-960.webp 960w, /media/originals-story-c0761076a5-1600.webp 1600w",
+    "avifSrc": "/media/originals-story-c0761076a5-1600.avif",
+    "avifSrcSet": "/media/originals-story-c0761076a5-480.avif 480w, /media/originals-story-c0761076a5-960.avif 960w, /media/originals-story-c0761076a5-1600.avif 1600w",
+    "small": "/media/originals-story-c0761076a5-480.webp",
+    "medium": "/media/originals-story-c0761076a5-960.webp"
+  },
+  "/originals/wedding.jpg": {
+    "width": 1000,
+    "height": 667,
+    "src": "/media/originals-wedding-365fb38e50-1600.webp",
+    "srcSet": "/media/originals-wedding-365fb38e50-480.webp 480w, /media/originals-wedding-365fb38e50-960.webp 960w, /media/originals-wedding-365fb38e50-1600.webp 1000w",
+    "avifSrc": "/media/originals-wedding-365fb38e50-1600.avif",
+    "avifSrcSet": "/media/originals-wedding-365fb38e50-480.avif 480w, /media/originals-wedding-365fb38e50-960.avif 960w, /media/originals-wedding-365fb38e50-1600.avif 1000w",
+    "small": "/media/originals-wedding-365fb38e50-480.webp",
+    "medium": "/media/originals-wedding-365fb38e50-960.webp"
+  },
+  "/originals/yacht.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "src": "/media/originals-yacht-d3edd989c9-1600.webp",
+    "srcSet": "/media/originals-yacht-d3edd989c9-480.webp 480w, /media/originals-yacht-d3edd989c9-960.webp 960w, /media/originals-yacht-d3edd989c9-1600.webp 1000w",
+    "avifSrc": "/media/originals-yacht-d3edd989c9-1600.avif",
+    "avifSrcSet": "/media/originals-yacht-d3edd989c9-480.avif 480w, /media/originals-yacht-d3edd989c9-960.avif 960w, /media/originals-yacht-d3edd989c9-1600.avif 1000w",
+    "small": "/media/originals-yacht-d3edd989c9-480.webp",
+    "medium": "/media/originals-yacht-d3edd989c9-960.webp"
+  },
+  "/originals/yankee-lady-iii-hero.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "src": "/media/originals-yankee-lady-iii-hero-2863ba81a8-1600.webp",
+    "srcSet": "/media/originals-yankee-lady-iii-hero-2863ba81a8-480.webp 480w, /media/originals-yankee-lady-iii-hero-2863ba81a8-960.webp 960w, /media/originals-yankee-lady-iii-hero-2863ba81a8-1600.webp 1600w",
+    "avifSrc": "/media/originals-yankee-lady-iii-hero-2863ba81a8-1600.avif",
+    "avifSrcSet": "/media/originals-yankee-lady-iii-hero-2863ba81a8-480.avif 480w, /media/originals-yankee-lady-iii-hero-2863ba81a8-960.avif 960w, /media/originals-yankee-lady-iii-hero-2863ba81a8-1600.avif 1600w",
+    "small": "/media/originals-yankee-lady-iii-hero-2863ba81a8-480.webp",
+    "medium": "/media/originals-yankee-lady-iii-hero-2863ba81a8-960.webp"
+  },
+  "/yankee-lady-logo.png": {
+    "width": 1500,
+    "height": 900,
+    "src": "/media/root-yankee-lady-logo-6e98f96bc1-1600.webp",
+    "srcSet": "/media/root-yankee-lady-logo-6e98f96bc1-480.webp 480w, /media/root-yankee-lady-logo-6e98f96bc1-960.webp 960w, /media/root-yankee-lady-logo-6e98f96bc1-1600.webp 1500w",
+    "avifSrc": "/media/root-yankee-lady-logo-6e98f96bc1-1600.avif",
+    "avifSrcSet": "/media/root-yankee-lady-logo-6e98f96bc1-480.avif 480w, /media/root-yankee-lady-logo-6e98f96bc1-960.avif 960w, /media/root-yankee-lady-logo-6e98f96bc1-1600.avif 1500w",
+    "small": "/media/root-yankee-lady-logo-6e98f96bc1-480.webp",
+    "medium": "/media/root-yankee-lady-logo-6e98f96bc1-960.webp"
+  },
+  "/og.png": {
+    "width": 1200,
+    "height": 630,
+    "src": "/media/root-og-a7fe53b5d7-1600.webp",
+    "srcSet": "/media/root-og-a7fe53b5d7-480.webp 480w, /media/root-og-a7fe53b5d7-960.webp 960w, /media/root-og-a7fe53b5d7-1600.webp 1200w",
+    "avifSrc": "/media/root-og-a7fe53b5d7-1600.avif",
+    "avifSrcSet": "/media/root-og-a7fe53b5d7-480.avif 480w, /media/root-og-a7fe53b5d7-960.avif 960w, /media/root-og-a7fe53b5d7-1600.avif 1200w",
+    "small": "/media/root-og-a7fe53b5d7-480.webp",
+    "medium": "/media/root-og-a7fe53b5d7-960.webp"
+  },
+  "/gallery/corporate-sunset-cruise.jpg": {
+    "width": 1600,
+    "height": 900,
+    "src": "/media/corporate-sunset-cruise-1600.webp",
+    "srcSet": "/media/corporate-sunset-cruise-480.webp 480w, /media/corporate-sunset-cruise-960.webp 960w, /media/corporate-sunset-cruise-1600.webp 1600w",
+    "avifSrc": "/media/corporate-sunset-cruise-1600.avif",
+    "avifSrcSet": "/media/corporate-sunset-cruise-480.avif 480w, /media/corporate-sunset-cruise-960.avif 960w, /media/corporate-sunset-cruise-1600.avif 1600w",
+    "small": "/media/corporate-sunset-cruise-480.webp",
+    "medium": "/media/corporate-sunset-cruise-960.webp"
+  }
+}

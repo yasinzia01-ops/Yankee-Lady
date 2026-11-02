@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Toronto Harbour and Islands</title>
+  <desc id="desc">A stylized vector map of Toronto's waterfront, western harbour, island airport, Toronto Islands and Ward's Island.</desc>
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#b9dfeb"/>
+      <stop offset="1" stop-color="#8fcbdc"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f7f3e9"/>
+      <stop offset="1" stop-color="#ebe8dc"/>
+    </linearGradient>
+    <pattern id="minor-grid" width="42" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(-9)">
+      <path d="M0 8H42M0 25H42M10 0V34M31 0V34" fill="none" stroke="#cad5d7" stroke-width="1.2"/>
+    </pattern>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#31535f" flood-opacity=".24"/>
+    </filter>
+    <clipPath id="mainland-clip">
+      <path d="M0 0H1200V176L1150 183 1111 174 1058 194 1001 184 946 200 899 187 844 207 792 196 744 213 692 201 639 222 587 207 532 224 484 214 430 229 378 218 326 236 278 224 226 241 171 230 118 245 61 236 0 253Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#water)"/>
+
+  <!-- Mainland and downtown street grid -->
+  <path d="M0 0H1200V176L1150 183 1111 174 1058 194 1001 184 946 200 899 187 844 207 792 196 744 213 692 201 639 222 587 207 532 224 484 214 430 229 378 218 326 236 278 224 226 241 171 230 118 245 61 236 0 253Z" fill="url(#land)"/>
+  <rect width="1200" height="285" fill="url(#minor-grid)" clip-path="url(#mainland-clip)" opacity=".92"/>
+  <g clip-path="url(#mainland-clip)" fill="none" stroke-linecap="round">
+    <path d="M-40 159C184 142 360 158 554 135S924 113 1240 90" stroke="#a9b6bb" stroke-width="12"/>
+    <path d="M-40 159C184 142 360 158 554 135S924 113 1240 90" stroke="#eef0eb" stroke-width="7"/>
+    <path d="M-40 210C222 192 377 199 587 177S934 154 1235 123" stroke="#bdc8ca" stroke-width="8"/>
+    <path d="M-40 210C222 192 377 199 587 177S934 154 1235 123" stroke="#f7f5ed" stroke-width="4"/>
+    <path d="M172 -20L226 253M354 -30L404 234M525 -35L561 226M718 -25L741 216M914 -25L922 199M1085 -20L1080 192" stroke="#b7c5c7" stroke-width="4"/>
+    <path d="M100 92L1130 6M53 124L1180 31" stroke="#c2cdce" stroke-width="3"/>
+  </g>
+
+  <!-- Waterfront parks and piers -->
+  <g fill="#c8ebd1" stroke="#96ceb0" stroke-width="2">
+    <path d="M58 185l104-10 18 56-110 13Z"/>
+    <path d="M255 178l92-7 12 55-87 12Z"/>
+    <path d="M446 167l112-10 6 62-104 12Z"/>
+    <path d="M641 151l87-6 7 64-87 9Z"/>
+    <path d="M1004 122l114-15 14 73-102 17Z"/>
+  </g>
+  <g fill="#f2efe5" stroke="#c7d0d0" stroke-width="2">
+    <path d="M396 213v63h20v-66Z"/>
+    <path d="M431 207v51h18v-54Z"/>
+    <path d="M469 211v72h23v-78Z"/>
+    <path d="M514 202v55h20v-59Z"/>
+    <path d="M560 207v65h19v-70Z"/>
+    <path d="M621 195v57h21v-62Z"/>
+    <path d="M672 191v48h18v-52Z"/>
+    <path d="M724 199v63h22v-67Z"/>
+    <path d="M788 191v51h18v-55Z"/>
+  </g>
+
+  <!-- Billy Bishop airport -->
+  <path d="M118 382l168-83 122 38-44 38-8 136-78 59-93-44-45-71Z" fill="#e9ece8" stroke="#c5ced0" stroke-width="3"/>
+  <path d="M162 431l172-81 14 23-170 83Z" fill="#f7f6ef" stroke="#c6d0d2" stroke-width="2"/>
+  <path d="M263 337l42 151" stroke="#c2cccf" stroke-width="8"/>
+  <path d="M263 337l42 151" stroke="#f7f5ed" stroke-width="4"/>
+
+  <!-- Toronto Islands -->
+  <g fill="#c7ead0" stroke="#91c8aa" stroke-width="3">
+    <path d="M292 574c48-47 109-78 172-89 48-8 88 1 126 19 31 15 62 27 100 24 55-5 104-35 151-63 44-25 91-40 145-34 27 3 56 12 82 25-26 63-78 118-144 151-66 34-143 45-220 40-72-5-142-26-211-16-51 7-103 22-151 9-23-6-40-28-50-66Z"/>
+    <path d="M968 433c51-40 113-61 177-54 21 2 42 8 59 20l-8 135c-44 12-84 1-116-25-33-27-69-49-112-76Z"/>
+    <path d="M454 481c-24-32-23-68 4-101 20 22 26 48 22 76Z"/>
+  </g>
+  <g fill="none" stroke="#8fcbdc" stroke-linecap="round">
+    <path d="M367 598c43-28 87-33 133-18s91 19 136 3 86-51 129-55" stroke-width="18"/>
+    <path d="M594 519c16 34 18 72 3 111" stroke-width="12"/>
+    <path d="M790 489c22 21 38 50 44 87" stroke-width="11"/>
+    <path d="M924 468c18 17 31 38 36 65" stroke-width="10"/>
+  </g>
+  <g fill="none" stroke="#aad9c3" stroke-width="2">
+    <path d="M334 580c86-51 168-57 258-30 93 29 182 27 286-38"/>
+    <path d="M708 606c83-20 146-55 211-113"/>
+    <path d="M1007 456c54-29 108-39 164-27"/>
+  </g>
+
+  <!-- Ferry routes from the waterfront -->
+  <g fill="none" stroke="#4eb6d1" stroke-width="2.5" stroke-dasharray="9 8" opacity=".85">
+    <path d="M673 219C699 295 695 364 652 493"/>
+    <path d="M678 219C741 282 806 344 976 431"/>
+    <path d="M671 219C603 302 510 372 466 478"/>
+  </g>
+
+  <!-- Typical private cruise route -->
+  <path d="M618 228C474 255 330 312 253 393c67 111 180 171 331 139 142-30 241-113 302-220-82-86-167-142-268-184Z" fill="none" stroke="#b38a42" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round" filter="url(#soft-shadow)"/>
+
+  <!-- Map labels -->
+  <g fill="#65747a" font-family="Arial, Helvetica, sans-serif">
+    <text x="148" y="104" font-size="22" letter-spacing="2">WEST QUEEN WEST</text>
+    <text x="456" y="91" font-size="22" letter-spacing="3">ENTERTAINMENT DISTRICT</text>
+    <text x="630" y="170" font-size="24" letter-spacing="3">HARBOURFRONT</text>
+    <text x="67" y="201" font-size="20">THE BENTWAY</text>
+    <text x="286" y="213" font-size="18">TORONTO MUSIC GARDEN</text>
+    <text x="1065" y="171" font-size="19">PORT LANDS</text>
+    <text x="155" y="358" font-size="18" letter-spacing="1">BILLY BISHOP</text>
+    <text x="178" y="380" font-size="18">TORONTO CITY AIRPORT</text>
+    <text x="356" y="617" font-size="20" letter-spacing="3">TORONTO ISLANDS</text>
+    <text x="674" y="590" font-size="20" letter-spacing="2">CENTRE ISLAND</text>
+    <text x="1010" y="432" font-size="19" letter-spacing="2">WARD'S ISLAND</text>
+  </g>
+  <g fill="#73858b" font-family="Arial, Helvetica, sans-serif" font-size="14">
+    <text x="693" y="333" transform="rotate(75 693 333)">Centre Island Ferry</text>
+    <text x="804" y="300" transform="rotate(35 804 300)">Ward's Island Ferry</text>
+    <text x="534" y="342" transform="rotate(-42 534 342)">Hanlan's Point Ferry</text>
+  </g>
+</svg>

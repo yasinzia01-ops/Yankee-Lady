@@ -1,0 +1,242 @@
+/* Paid-search landing pages: message-matched heroes, proof early, enquiry one tap away. */
+.lp-page { background:var(--ivory); color:var(--ink); }
+.lp-page :is(.closing-cta,.page-cta,.testimonial) { color:var(--ivory); }
+
+/* Hero */
+.lp-hero { display:flex; flex-direction:column; min-height:clamp(700px,94svh,920px); background-size:cover; background-repeat:no-repeat; }
+.lp-hero .lp-hero-copy { flex:1; display:flex; flex-direction:column; justify-content:center; padding:clamp(60px,9vh,110px) 0 56px; }
+/* Gold maple leaf beside a stat value (the family-owned stat). */
+.lp-stat-leaf { display:inline-block; width:.62em; height:.66em; margin-right:.22em; color:#d5b77a; vertical-align:.04em; }
+.lp-hero-copy h1 { max-width:860px; }
+.lp-hero-copy>p:not(.eyebrow) { max-width:560px; }
+.lp-hero-copy .hero-actions { margin-top:0; }
+.lp-hero-copy .button-ghost { color:var(--ivory); }
+.lp-hero-stats { position:relative; z-index:1; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); margin:0 clamp(24px,9vw,140px); padding:26px 0 40px; border-top:1px solid rgba(255,255,255,.28); list-style:none; }
+.lp-hero-stats li { display:flex; flex-direction:column; gap:8px; padding:0 24px; border-left:1px solid rgba(255,255,255,.22); }
+.lp-hero-stats li:first-child { padding-left:0; border-left:0; }
+.lp-hero-stats strong { color:var(--ivory); font:300 clamp(30px,2.8vw,42px)/1 var(--font-sans); font-variant-numeric:tabular-nums lining-nums; letter-spacing:-.035em; }
+.lp-hero-stats span { color:#b6c3ca; font-size:12px; letter-spacing:.12em; line-height:1.5; text-transform:uppercase; }
+
+/* Section shells */
+.lp-section { padding:clamp(90px,10vw,150px) var(--ui-section-inline); scroll-margin-top:var(--site-header-height); }
+.lp-section-linen { background:#f7f4ee; }
+.lp-section-sand { background:#eee9df; }
+.lp-section-dark { background:#0a202f; color:var(--ivory); }
+.lp-label { margin:0 0 20px; color:#765f37; font-size:12px; letter-spacing:.16em; line-height:1.6; text-transform:uppercase; }
+.lp-section-dark .lp-label,.lp-split-dark .lp-label { color:#d6ba7e; }
+.lp-heading { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr); gap:clamp(32px,8vw,120px); align-items:end; margin-bottom:clamp(48px,6vw,84px); }
+.lp-heading h2,.lp-split-copy h2,.lp-enquiry h2 { margin:0; font-family:var(--font-display); font-size:clamp(44px,5.4vw,82px); font-weight:300; line-height:.98; letter-spacing:-.045em; }
+.lp-heading h2 em,.lp-split-copy h2 em,.lp-enquiry h2 em { color:#8e754c; font-weight:300; }
+.lp-section-dark .lp-heading h2 em,.lp-split-dark h2 em { color:var(--champagne); }
+.lp-heading>p { max-width:440px; margin:0; color:#52636b; font-family:var(--font-display); font-size:19px; line-height:1.7; }
+.lp-section-dark .lp-heading>p { color:#aab6bd; }
+
+/* Image cards */
+.lp-cards { display:grid; gap:1px; background:#cbc4b8; border:1px solid #cbc4b8; }
+.lp-cards-4 { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.lp-cards-3 { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.lp-card { display:flex; flex-direction:column; background:#f8f5ef; }
+.lp-card-media { aspect-ratio:4/3; overflow:hidden; background:#102b3b; }
+.lp-card-media picture { display:block; height:100%; }
+.lp-card-media img { display:block; width:100%; height:100%; object-fit:cover; filter:saturate(.85) brightness(.92); transition:transform 1.1s cubic-bezier(.16,1,.3,1),filter .7s ease; }
+.lp-card:hover .lp-card-media img { transform:scale(1.035); filter:saturate(.95) brightness(1); }
+.lp-card-body { flex:1; padding:clamp(24px,2.4vw,34px); }
+.lp-card-body>span { color:#765f37; font-size:12px; letter-spacing:.14em; font-variant-numeric:tabular-nums; }
+.lp-card h3 { margin:16px 0 12px; font-family:var(--font-display); font-size:clamp(26px,2.2vw,34px); font-weight:300; line-height:1.1; letter-spacing:-.025em; }
+.lp-card p { margin:0; color:#52636b; font-size:15px; line-height:1.7; }
+
+/* Image + copy split */
+.lp-split { display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); background:var(--ivory); color:var(--ink); scroll-margin-top:var(--site-header-height); }
+.lp-split-dark { background:#0a202f; color:var(--ivory); }
+.lp-split-reverse .lp-split-media { order:2; }
+.lp-split-media { position:relative; min-height:clamp(440px,46vw,740px); overflow:hidden; background:#102b3b; }
+.lp-split-media picture,.lp-split-media img { position:absolute; inset:0; display:block; width:100%; height:100%; object-fit:cover; }
+.lp-split-copy { display:flex; flex-direction:column; justify-content:center; padding:clamp(70px,7vw,120px) clamp(24px,6vw,110px); }
+.lp-split-copy h2 { margin-bottom:28px; font-size:clamp(42px,4.6vw,70px); }
+.lp-split-copy>p:not(.lp-label) { max-width:480px; margin:0; color:#52636b; font-family:var(--font-display); font-size:19px; line-height:1.75; }
+.lp-split-dark .lp-split-copy>p:not(.lp-label) { color:#aab6bd; }
+.lp-checklist { max-width:520px; margin:36px 0 0; padding:0; border-top:1px solid #d3ccc0; list-style:none; }
+.lp-checklist li { display:flex; align-items:center; gap:14px; min-height:58px; padding:10px 0; border-bottom:1px solid #d3ccc0; color:#42535c; font-size:15px; line-height:1.5; }
+.lp-checklist svg { flex:0 0 auto; box-sizing:content-box; width:15px; height:15px; padding:7px; border:1px solid #c7b99e; border-radius:50%; color:#96794a; }
+.lp-split-dark .lp-checklist,.lp-split-dark .lp-checklist li { border-color:rgba(255,255,255,.16); color:#c3cdd2; }
+.lp-split-dark .lp-checklist svg { border-color:rgba(213,183,122,.45); color:var(--champagne); }
+.lp-split-actions { display:flex; flex-wrap:wrap; gap:14px; margin-top:38px; }
+.lp-split-actions .text-link { margin-top:0; }
+
+/* Wedding-day journey */
+.lp-journey { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:clamp(16px,2vw,28px); margin:0; padding:0; list-style:none; }
+.lp-journey li { display:flex; flex-direction:column; min-width:0; }
+.lp-journey-media { aspect-ratio:3/4; overflow:hidden; background:#102b3b; }
+.lp-journey-media picture { display:block; height:100%; }
+.lp-journey-media img { display:block; width:100%; height:100%; object-fit:cover; filter:saturate(.85) brightness(.9); transition:transform 1.2s cubic-bezier(.16,1,.3,1),filter .7s ease; }
+.lp-journey li:hover img { transform:scale(1.035); filter:saturate(.95) brightness(1); }
+.lp-journey-step { display:flex; align-items:center; gap:12px; margin:24px 0 0; padding-top:18px; border-top:1px solid rgba(255,255,255,.24); color:#d6ba7e; font-size:12px; letter-spacing:.16em; text-transform:uppercase; }
+.lp-journey-step b { font-weight:300; font-variant-numeric:tabular-nums; }
+.lp-journey h3 { margin:14px 0 10px; font-family:var(--font-display); font-size:clamp(26px,2.2vw,34px); font-weight:300; line-height:1.1; letter-spacing:-.025em; }
+.lp-journey li>p:last-child { margin:0; color:#aab6bd; font-size:15px; line-height:1.7; }
+
+/* Film */
+.lp-film { aspect-ratio:16/9; overflow:hidden; background:#0b2230; }
+.lp-film iframe { display:block; width:100%; height:100%; border:0; }
+.lp-film-poster { position:relative; display:block; width:100%; height:100%; padding:0; border:0; background:#0b2230; cursor:pointer; }
+.lp-film-poster picture { display:block; height:100%; }
+.lp-film-poster img { display:block; width:100%; height:100%; object-fit:cover; filter:brightness(.72); transition:transform 1.2s cubic-bezier(.16,1,.3,1),filter .7s ease; }
+.lp-film-poster:hover img,.lp-film-poster:focus-visible img { transform:scale(1.025); filter:brightness(.82); }
+.lp-film-play { position:absolute; top:50%; left:50%; display:grid; place-items:center; width:84px; height:84px; border:1px solid rgba(255,255,255,.7); border-radius:50%; background:rgba(7,24,36,.45); color:var(--ivory); transform:translate(-50%,-50%); backdrop-filter:blur(6px); transition:background .3s ease,border-color .3s ease; }
+.lp-film-play svg { margin-left:4px; }
+.lp-film-poster:hover .lp-film-play,.lp-film-poster:focus-visible .lp-film-play { border-color:var(--champagne); background:rgba(7,24,36,.7); }
+.lp-film-label { position:absolute; left:clamp(18px,3vw,36px); bottom:clamp(18px,3vw,32px); color:var(--ivory); font-size:12px; letter-spacing:.16em; text-transform:uppercase; }
+
+/* Corporate photo gallery: the listing layout from the venue page, on the landing-page grid */
+.lp-gallery.yacht-gallery-section { padding:clamp(90px,10vw,150px) var(--ui-section-inline); background:#f7f4ee; scroll-margin-top:var(--site-header-height); }
+.lp-gallery .gallery-heading { padding:0 0 clamp(32px,3.5vw,52px); }
+.lp-gallery .gallery-heading p { color:#765f37; font-size:12px; letter-spacing:.16em; }
+.lp-gallery .gallery-heading h2 { font-size:clamp(42px,4.6vw,72px); line-height:1.02; }
+.lp-gallery .gallery-heading>span { color:#596770; font-size:12px; }
+.lp-gallery .listing-gallery { background:#f7f4ee; }
+/* Desktop: heading and photos fit one screen below the sticky header. */
+@media(min-width:761px) {
+  .lp-gallery .gallery-heading { padding-bottom:24px; }
+  .lp-gallery .gallery-heading h2 { font-size:clamp(36px,3.4vw,54px); }
+  .lp-gallery .listing-gallery { grid-template-rows:repeat(2,max(170px,calc((100svh - var(--site-header-height) - 230px) / 2))); }
+}
+
+/* Enquiry: dark stage, raised form card, next steps beside it */
+.lp-enquiry { position:relative; isolation:isolate; display:grid; grid-template-columns:minmax(0,1fr) minmax(400px,520px); gap:clamp(48px,7vw,120px); align-items:start; padding:clamp(90px,10vw,150px) var(--ui-section-inline); overflow:hidden; background:#0a202f; color:var(--ivory); scroll-margin-top:var(--site-header-height); }
+.lp-enquiry::before { content:''; position:absolute; inset:0; z-index:-1; background:image-set(url('/media/originals-cruising-1b001dbe60-1600.avif') type('image/avif'),url('/media/originals-cruising-1b001dbe60-1600.webp') type('image/webp')) center 40%/cover no-repeat; opacity:.04; filter:grayscale(1); pointer-events:none; }
+.lp-enquiry-copy { position:sticky; top:calc(var(--site-header-height) + 48px); max-width:560px; }
+.lp-enquiry .lp-label { color:#d6ba7e; }
+.lp-enquiry h2 em { color:var(--champagne); }
+.lp-enquiry-intro { max-width:480px; margin:28px 0 0; color:#aab6bd; font-family:var(--font-display); font-size:19px; line-height:1.7; }
+.lp-next-label { margin:48px 0 0; color:#d6ba7e; font-size:12px; letter-spacing:.16em; text-transform:uppercase; }
+.lp-next { margin:16px 0 0; padding:0; border-top:1px solid rgba(255,255,255,.16); list-style:none; }
+.lp-next li { display:grid; grid-template-columns:52px minmax(0,1fr); align-items:start; padding:22px 0; border-bottom:1px solid rgba(255,255,255,.16); }
+.lp-next b { display:grid; place-items:center; width:36px; height:36px; border:1px solid rgba(213,183,122,.55); border-radius:50%; color:var(--champagne); font:300 13px var(--font-sans); }
+.lp-next span { color:#aab6bd; font-size:15px; line-height:1.6; }
+.lp-next strong { display:block; margin:4px 0 6px; color:var(--ivory); font:300 25px/1.15 var(--font-display); letter-spacing:-.015em; }
+.lp-talk { display:flex; flex-wrap:wrap; align-items:center; gap:6px 28px; margin-top:40px; }
+.lp-talk>p { flex-basis:100%; margin:0 0 4px; color:#aab6bd; font-family:var(--font-display); font-size:19px; }
+.lp-talk a { display:inline-flex; align-items:center; gap:10px; min-height:44px; color:var(--ivory); font-size:15px; }
+.lp-talk a span,.lp-talk a { text-decoration:underline; text-decoration-color:rgba(213,183,122,.6); text-underline-offset:6px; }
+.lp-talk a svg { color:var(--champagne); }
+.lp-talk a:hover,.lp-talk a:focus-visible { color:var(--champagne); }
+.lp-talk small { display:inline-flex; align-items:center; gap:8px; flex-basis:100%; margin-top:6px; color:#8f9da4; font-size:13px; }
+.lp-form-card { position:relative; background:#fbf9f5; color:var(--ink); box-shadow:0 40px 90px rgba(0,0,0,.32); }
+.lp-form-card::before { content:''; position:absolute; top:0; right:0; left:0; height:3px; background:var(--champagne); }
+.lp-form-card-head { display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:30px 28px 20px; border-bottom:1px solid #e4dfd5; }
+.lp-form-card-head p { margin:0; color:#765f37; font-size:12px; letter-spacing:.16em; text-transform:uppercase; }
+.lp-form-card-head span { color:#596770; font-size:13px; }
+.lp-form-card>.yacht-booking-section { position:static; max-height:none; padding:0; overflow:visible; -webkit-mask-image:none; mask-image:none; }
+.lp-form-card .perfect-venue-booking-shell { border:0; background:transparent; }
+.lp-form-card { --pv-scale:1.08; }
+.lp-form-card .pv-frame { margin:8px 12px 0; }
+.lp-form-card .compact-form-note { margin:0; padding:0 28px; text-align:left; font-size:13px; }
+.lp-form-card-foot { margin:0; padding:16px 28px 26px; color:#596770; font-size:13px; line-height:1.6; }
+.lp-form-card>.yacht-booking-section { scroll-margin-top:calc(var(--site-header-height) + 84px); }
+
+.lp-mobile-plan { display:none; }
+
+@media(min-width:1601px) {
+  body>main :is(.lp-section,.lp-enquiry) { padding-inline:calc((100% - var(--site-content-max)) / 2); }
+  .lp-hero-stats { margin-inline:calc((100% - var(--site-content-max)) / 2); }
+}
+@media(max-width:1000px) {
+  .lp-page { padding-bottom:calc(76px + env(safe-area-inset-bottom)); }
+  .lp-heading { grid-template-columns:1fr; }
+  .lp-cards-4 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .lp-split { grid-template-columns:1fr; }
+  .lp-split-reverse .lp-split-media { order:0; }
+  .lp-split-media { min-height:420px; }
+  .lp-journey { grid-template-columns:repeat(2,minmax(0,1fr)); row-gap:48px; }
+  .lp-enquiry { grid-template-columns:1fr; }
+  .lp-enquiry-copy { position:static; }
+  .lp-enquiry { display:flex; flex-direction:column; gap:40px; }
+  .lp-enquiry-copy { display:contents; }
+  .lp-enquiry-head { order:1; }
+  .lp-form-card { display:none; }
+  .lp-enquiry-extra { order:3; }
+  .lp-next-label { margin-top:0; }
+  .lp-mobile-plan { display:inline-flex; margin-top:32px; }
+}
+@media(max-width:760px) {
+  .lp-hero .lp-hero-copy { padding:48px 0 40px; }
+  .lp-hero-copy .hero-actions { width:100%; max-width:none; margin:0; }
+  .lp-hero-stats { grid-template-columns:repeat(2,minmax(0,1fr)); margin-inline:var(--mobile-content-gutter); padding:0 0 28px; }
+  .lp-hero-stats li,.lp-hero-stats li:first-child { padding:18px 16px 0; border-left:1px solid rgba(255,255,255,.22); }
+  .lp-hero-stats li:nth-child(odd) { padding-left:0; border-left:0; }
+  .lp-hero-stats li:nth-child(n+3) { margin-top:18px; border-top:1px solid rgba(255,255,255,.16); }
+  /* Corporate page: the hero ends exactly at the mobile "Plan your event" bar; spare height goes above the eyebrow. */
+  .lp-hero.lp-hero-compact { min-height:calc(100svh - 77px - env(safe-area-inset-bottom)); }
+  .lp-hero-compact .lp-hero-copy { justify-content:flex-end; padding-top:64px; }
+  /* Corporate page: the four stats as one swipeable row instead of a 2×2 block; the cut-off third stat hints at the swipe. */
+  .lp-hero-stats.lp-hero-stats-compact { display:flex; margin-inline:0; padding:0 var(--mobile-content-gutter) 28px; border-top:0; overflow-x:auto; scroll-snap-type:x mandatory; scroll-padding-inline:var(--mobile-content-gutter); scrollbar-width:none; }
+  .lp-hero-stats-compact::-webkit-scrollbar { display:none; }
+  .lp-hero-stats-compact li,.lp-hero-stats-compact li:first-child,.lp-hero-stats-compact li:nth-child(n+3) { flex:0 0 31%; gap:8px; margin-top:0; padding:18px 16px 0; border-top:1px solid rgba(255,255,255,.28); border-left:1px solid rgba(255,255,255,.22); scroll-snap-align:start; }
+  .lp-hero-stats-compact li:first-child { padding-left:0; border-left:0; }
+  .lp-hero-stats-compact strong { font-size:22px; }
+  .lp-hero-stats-compact span { font-size:10px; letter-spacing:.1em; white-space:nowrap; }
+  .lp-section,.lp-enquiry { padding:64px var(--mobile-content-gutter); }
+  .lp-gallery.yacht-gallery-section { padding:64px 0; }
+  .lp-gallery .gallery-heading { padding:0 var(--mobile-content-gutter) 28px; }
+  .lp-gallery .gallery-heading h2 { font-size:clamp(36px,10vw,52px); line-height:1.05; }
+  /* Same mobile layout as the venue page gallery: lead photo, two tiles, full-width "View all" button. */
+  .lp-gallery .listing-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:auto; gap:var(--ui-gallery-gap); margin-inline:var(--mobile-content-gutter); overflow:visible; scroll-snap-type:none; background:transparent; }
+  .lp-gallery .listing-gallery>button:not(.show-gallery) { display:block; width:100%; height:auto; min-width:0; aspect-ratio:var(--ui-gallery-tile-ratio); }
+  .lp-gallery .listing-gallery>button.gallery-lead { grid-column:1/-1; grid-row:auto; aspect-ratio:var(--ui-gallery-lead-ratio); }
+  .lp-gallery .listing-gallery>button:nth-of-type(4),.lp-gallery .listing-gallery>button:nth-of-type(5) { display:none; }
+  .lp-gallery .listing-gallery>.show-gallery { position:static!important; grid-column:1/-1; justify-self:stretch; display:flex; justify-content:center; width:100%!important; margin-top:7px; padding:14px!important; min-height:48px; backdrop-filter:none; }
+  .lp-film-play { width:64px; height:64px; }
+  .lp-heading h2,.lp-split-copy h2,.lp-enquiry h2 { font-size:clamp(36px,10vw,52px); line-height:1.05; }
+  .lp-heading>p,.lp-split-copy>p:not(.lp-label),.lp-enquiry-intro { font-size:17px; }
+  .lp-cards-4,.lp-cards-3 { grid-template-columns:1fr; }
+  .lp-split-media { min-height:300px; }
+  .lp-split-copy { padding:56px var(--mobile-content-gutter) 64px; }
+  .lp-split-actions .button { width:100%; }
+  .lp-journey { display:flex; gap:14px; margin-inline:calc(-1 * var(--mobile-content-gutter)); padding-inline:var(--mobile-content-gutter); overflow-x:auto; scroll-snap-type:x mandatory; scroll-padding-inline:var(--mobile-content-gutter); scrollbar-width:none; }
+  .lp-journey::-webkit-scrollbar { display:none; }
+  .lp-journey li { flex:0 0 78%; scroll-snap-align:start; }
+  .lp-mobile-plan { width:100%; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .lp-card-media img,.lp-journey-media img { transition:none; }
+}
+
+/* Corporate occasions and wedding celebrations share the homepage's photographic card treatment. */
+.corporate-occasions .lp-heading,.wedding-occasions .lp-heading { grid-template-columns:1fr; gap:20px; margin-bottom:36px; }
+.corporate-occasions .lp-heading>p,.wedding-occasions .lp-heading>p { max-width:660px; }
+#occasions-title { scroll-margin-top:calc(var(--site-header-height) + 24px); }
+.lp-cards-immersive { gap:16px; border:0; background:transparent; }
+.lp-cards-immersive:focus-visible { outline:2px solid #96794a; outline-offset:6px; }
+.lp-cards-immersive .lp-card { position:relative; isolation:isolate; min-width:0; min-height:460px; overflow:hidden; background:#102b3b; color:var(--ivory); }
+.lp-cards-immersive .lp-card-media { position:absolute; inset:0; aspect-ratio:auto; z-index:-2; }
+.lp-cards-immersive .lp-card-media img { filter:saturate(.85) brightness(.94); }
+.lp-cards-immersive .lp-card::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg,rgba(4,16,24,.12) 15%,rgba(4,16,24,.4) 40%,rgba(4,16,24,.94) 100%); }
+.lp-cards-immersive .lp-card-body { display:flex; flex-direction:column; justify-content:flex-end; padding:28px 24px; }
+.lp-cards-immersive .lp-card-body>span { position:absolute; top:26px; right:24px; color:#dec38a; }
+.lp-cards-immersive .lp-card h3 { margin:0 0 16px; color:var(--ivory); font-size:clamp(28px,2.5vw,38px); line-height:1.04; }
+.lp-cards-immersive .lp-card p { color:#e0e4e4; font-size:14px; line-height:1.65; }
+.occasions-swipe-hint { display:none; }
+@media(min-width:1001px) and (max-width:1200px) {
+  .lp-cards-immersive { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .lp-cards-immersive .lp-card { min-height:420px; }
+  .lp-cards-immersive.lp-cards-3 { grid-template-columns:repeat(3,minmax(0,1fr)); }
+}
+@media(max-width:1000px) {
+  .corporate-occasions,.wedding-occasions { --occasions-gutter:var(--ui-section-inline); }
+  .corporate-occasions .lp-heading,.wedding-occasions .lp-heading { gap:18px; margin-bottom:28px; }
+  .lp-cards-immersive { display:grid; grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:46%; gap:14px; margin-inline:calc(-1 * var(--occasions-gutter)); padding-inline:var(--occasions-gutter); overflow-x:auto; scroll-snap-type:x mandatory; scroll-padding-inline:var(--occasions-gutter); scrollbar-width:none; }
+  .lp-cards-immersive::-webkit-scrollbar { display:none; }
+  .lp-cards-immersive .lp-card { min-height:440px; scroll-snap-align:start; }
+  .occasions-swipe-hint { display:flex; align-items:center; gap:12px; margin:20px 0 0; color:#765f37; font-size:11px; letter-spacing:.12em; text-transform:uppercase; }
+}
+@media(max-width:760px) {
+  .corporate-occasions,.wedding-occasions { --occasions-gutter:var(--mobile-content-gutter); }
+}
+@media(max-width:600px) {
+  .lp-cards-immersive { grid-auto-columns:86%; }
+  .lp-cards-immersive .lp-card { min-height:440px; }
+  .lp-cards-immersive .lp-card h3 { font-size:34px; }
+}
+
+/* The landing form card already supplies its own heading and help text. */
+.lp-form-card .perfect-venue-booking-heading,.lp-form-card .booking-aside-help { display:none; }

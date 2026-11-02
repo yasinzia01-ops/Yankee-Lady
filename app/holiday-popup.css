@@ -1,0 +1,56 @@
+/* Native dialog keeps the popup above navigation and traps keyboard focus. */
+.holiday-popup {
+  position:fixed;
+  inset:0;
+  margin:auto;
+  padding:0;
+  border:0;
+  background:transparent;
+  color:inherit;
+  overflow:visible;
+  width:min(880px,calc(100vw - 48px),calc((100vh - 112px) * 1.409677));
+  width:min(880px,calc(100vw - 48px),calc((100dvh - 112px) * 1.409677));
+  max-width:none;
+  max-height:none;
+}
+.holiday-popup::backdrop { background:rgba(0,0,0,.72); }
+.holiday-popup-booking { display:block; line-height:0; box-shadow:0 12px 48px rgba(0,0,0,.28); }
+.holiday-popup-booking img { display:block; width:100%; height:auto; }
+.holiday-popup-close {
+  position:absolute;
+  top:-46px;
+  right:-10px;
+  display:grid;
+  place-items:center;
+  width:44px;
+  height:44px;
+  padding:0;
+  border:0;
+  background:transparent;
+  color:#b8b8b8;
+  cursor:pointer;
+  touch-action:manipulation;
+}
+.holiday-popup-close:hover { color:#fff; }
+.holiday-popup-close:focus-visible,.holiday-popup-booking:focus-visible { outline:2px solid #d5b77a; outline-offset:3px; }
+@media(max-width:600px) {
+  .holiday-popup {
+    width:min(calc(100vw - 24px),calc((100vh - 112px) * 1.409677));
+    width:min(calc(100vw - 24px),calc((100dvh - 112px) * 1.409677));
+  }
+  .holiday-popup-close { right:0; }
+}
+
+/* Opacity-only entrance keeps the artwork sharp and avoids layout movement. */
+@keyframes holiday-popup-fade-in {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+@media (prefers-reduced-motion:no-preference) {
+  .holiday-popup[open] {
+    animation:holiday-popup-fade-in 550ms cubic-bezier(.22,1,.36,1) both;
+  }
+  .holiday-popup[open]::backdrop {
+    animation:holiday-popup-fade-in 450ms ease-out both;
+  }
+}

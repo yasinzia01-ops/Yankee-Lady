@@ -1,0 +1,25 @@
+/* Shared, non-interactive trust badge for homepage and campaign heroes. */
+.hero-family-proof { z-index:3; }
+.family-owned-badge {
+  display:inline-flex; align-items:center; gap:10px; max-width:100%;
+  box-sizing:border-box; padding:8px 15px 8px 12px;
+  border:1px solid #d5b77a; border-radius:999px;
+  background:rgba(7,24,36,.85); color:#f4f0e7; text-align:left;
+}
+.family-owned-leaf { display:block; width:24px; height:26px; flex:0 0 auto; color:#d5b77a; }
+.family-owned-copy {
+  display:flex; flex-direction:column; gap:2px; padding-left:10px;
+  border-left:1px solid rgba(213,183,122,.7);
+  font-family:var(--font-sans),sans-serif; font-size:10px; font-weight:400;
+  line-height:1.35; letter-spacing:.055em; text-transform:uppercase;
+}
+.hero>.hero-family-proof { position:absolute; left:clamp(24px,5vw,76px); bottom:28px; }
+.hero:has(>.hero-family-proof) .hero-video-toggle { left:auto; right:24px; }
+.lp-hero>.hero-family-proof { position:relative; flex:none; align-self:flex-start; margin:0 clamp(24px,9vw,140px) 28px; }
+@media(max-width:760px) {
+  .hero>.hero-family-proof { left:var(--mobile-content-gutter,24px); bottom:max(20px,env(safe-area-inset-bottom)); }
+  .family-owned-badge { padding:7px 11px 7px 10px; gap:8px; }
+  .family-owned-leaf { width:21px; height:23px; }
+  .family-owned-copy { padding-left:8px; font-size:10px; letter-spacing:.025em; }
+  .lp-hero>.hero-family-proof { margin:0 var(--mobile-content-gutter,24px) max(24px,env(safe-area-inset-bottom)); }
+}

@@ -1,0 +1,73 @@
+.band {
+  position: relative;
+  padding: 28px 0 24px;
+  overflow: hidden;
+  background: #0a202f;
+  color: #f5f1e8;
+  scroll-margin-top: 90px;
+}
+.heading {
+  margin: 0 20px 18px;
+  color: #a9b6bd;
+  font: 400 11px/1.5 var(--font-sans);
+  letter-spacing: .15em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.viewport {
+  overflow: hidden;
+  padding-block: 7px;
+  --fade: clamp(32px, 8vw, 120px);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+}
+.track {
+  display: flex;
+  width: max-content;
+  animation: drift 120s linear infinite;
+  will-change: transform;
+}
+.logos {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0 40px 0 0;
+  list-style: none;
+}
+.logos li { flex: none; }
+.logos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 4px 0;
+  border-radius: 3px;
+  opacity: .85;
+  transition: opacity .2s ease;
+}
+.logos a:hover, .logos a:focus-visible { opacity: 1; }
+.logos a:focus-visible { outline: 2px solid #d5b77a; outline-offset: 5px; }
+.logos img { display: block; width: 120px; height: 40px; object-fit: contain; }
+.logos img.compact { width: 48px; height: 46px; }
+@media (hover: hover) { .viewport:hover .track { animation-play-state: paused; } }
+/* Keyboard navigation exposes every link in a stationary, scrollable row. */
+.viewport:has(a:focus-visible) { overflow-x: auto; mask-image: none; -webkit-mask-image: none; }
+.viewport:has(a:focus-visible) .track { animation: none; }
+.viewport:has(a:focus-visible) .logos[aria-hidden] { display: none; }
+@keyframes drift { to { transform: translateX(-50%); } }
+@media (max-width: 600px) {
+  .band { padding-block: 24px 20px; }
+  .heading { font-size: 10px; letter-spacing: .12em; }
+  .logos { gap: 28px; padding-right: 28px; }
+  .logos img { width: 100px; height: 34px; }
+  .logos img.compact { width: 40px; height: 40px; }
+  .track { animation-duration: 104s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .track { animation: none; }
+  .viewport { overflow-x: auto; }
+  .logos[aria-hidden] { display: none; }
+  .logos a { transition: none; }
+}

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1000" width="2400" height="1000" role="img" aria-labelledby="title">
+  <title id="title">Main Deck</title>
+  <defs>
+    <pattern id="planks" width="40" height="14" patternUnits="userSpaceOnUse">
+      <rect width="40" height="14" fill="#c99a55"/>
+      <path d="M0 13.5H40" stroke="#a97b3c" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="2400" height="1000" fill="#ffffff"/>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M222.1,208.6 L1602.2,212.3 C1786.7,217.8 1971.2,287.9 2118.8,369.1 L2200.0,430.0 L2118.8,490.9 C1971.2,572.1 1786.7,642.2 1602.2,647.7 L222.1,651.4 Q200.0,651.4 200.0,629.3 L200.0,230.7 Q200.0,208.6 222.1,208.6 Z" fill="#9fb0d0" stroke="#1d2433" stroke-width="3"/>
+    <polygon points="2118.8,369.1 2200.0,430.0 2118.8,490.9" fill="#eceef3" stroke="#1d2433" stroke-width="2"/>
+    <path d="M377.1,254.7 L1111.4,254.7 L1111.4,265.8 L1255.4,265.8 L1255.4,299.0 L1646.5,299.0 L1646.5,561.0 L1255.4,561.0 L1255.4,596.1 L1115.1,596.1 L1115.1,649.6 L377.1,649.6 Z" fill="#1c2457" stroke="none"/>
+    <line x1="377.1" y1="254.7" x2="377.1" y2="394.9" stroke="#ffffff" stroke-width="5"/>
+    <line x1="1118.8" y1="265.8" x2="1255.4" y2="265.8" stroke="#ffffff" stroke-width="5"/>
+    <line x1="1118.8" y1="596.1" x2="1255.4" y2="596.1" stroke="#ffffff" stroke-width="5"/>
+    <rect x="1067.2" y="210.4" width="44.3" height="44.3" rx="0" fill="#1d2e8f" stroke="#1d2433" stroke-width="1.5"/>
+    <rect x="462.0" y="210.4" width="605.2" height="44.3" rx="0" fill="#a89f92" stroke="#7d7466" stroke-width="2"/>
+    <rect x="642.8" y="601.6" width="472.3" height="48.0" rx="0" fill="#a89f92" stroke="#7d7466" stroke-width="2"/>
+    <path d="M1255.4,265.8 L1528.4,269.5 C1620.7,273.2 1694.5,287.9 1738.7,295.3 L1738.7,324.8 C1694.5,313.8 1620.7,306.4 1528.4,302.7 L1255.4,299.0 Z" fill="#a89f92" stroke="#7d7466" stroke-width="2"/>
+    <path d="M1255.4,564.7 L1528.4,561.0 C1620.7,557.3 1694.5,553.6 1738.7,549.9 L1738.7,579.4 C1694.5,586.8 1620.7,594.2 1528.4,597.9 L1255.4,599.7 Z" fill="#a89f92" stroke="#7d7466" stroke-width="2"/>
+    <path d="M1646.5,317.5 L1731.4,324.8 L1738.7,291.6 L1831.0,291.6 Q1890.0,295.3 1890.0,350.7 L1890.0,513.0 Q1890.0,568.4 1831.0,572.1 L1738.7,579.4 L1731.4,549.9 L1646.5,557.3 Z" fill="url(#planks)" stroke="#1d2433" stroke-width="2.5"/>
+    <rect x="1890.0" y="380.2" width="22.1" height="121.8" rx="0" fill="#ffffff" stroke="#1d2433" stroke-width="1.5"/>
+    <line x1="1890.0" y1="400.5" x2="1912.2" y2="400.5" stroke="#1d2433" stroke-width="1.2"/>
+    <line x1="1890.0" y1="420.8" x2="1912.2" y2="420.8" stroke="#1d2433" stroke-width="1.2"/>
+    <line x1="1890.0" y1="441.1" x2="1912.2" y2="441.1" stroke="#1d2433" stroke-width="1.2"/>
+    <line x1="1890.0" y1="461.4" x2="1912.2" y2="461.4" stroke="#1d2433" stroke-width="1.2"/>
+    <line x1="1890.0" y1="481.7" x2="1912.2" y2="481.7" stroke="#1d2433" stroke-width="1.2"/>
+    <rect x="377.1" y="210.4" width="84.9" height="95.9" rx="0" fill="#d4d4d4" stroke="#1d2433" stroke-width="2"/>
+    <rect x="1056.1" y="258.4" width="40.6" height="77.5" rx="0" fill="#eceef3" stroke="#1d2433" stroke-width="1.5"/>
+    <rect x="901.1" y="343.3" width="195.6" height="103.3" rx="0" fill="#6e5246" stroke="#ffffff" stroke-width="2"/>
+    <line x1="908.1" y1="347.0" x2="908.1" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="922.1" y1="347.0" x2="922.1" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="936.0" y1="347.0" x2="936.0" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="950.0" y1="347.0" x2="950.0" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="964.0" y1="347.0" x2="964.0" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="977.9" y1="347.0" x2="977.9" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="991.9" y1="347.0" x2="991.9" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1005.9" y1="347.0" x2="1005.9" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1019.8" y1="347.0" x2="1019.8" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1033.8" y1="347.0" x2="1033.8" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1047.8" y1="347.0" x2="1047.8" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1061.8" y1="347.0" x2="1061.8" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1075.7" y1="347.0" x2="1075.7" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <line x1="1089.7" y1="347.0" x2="1089.7" y2="442.9" stroke="#ffffff" stroke-width="6"/>
+    <rect x="340.2" y="394.9" width="125.5" height="36.9" rx="0" fill="#d8cdbf" stroke="#7d7466" stroke-width="1.5"/>
+    <line x1="346.5" y1="398.6" x2="346.5" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="359.0" y1="398.6" x2="359.0" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="371.6" y1="398.6" x2="371.6" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="384.1" y1="398.6" x2="384.1" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="396.7" y1="398.6" x2="396.7" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="409.2" y1="398.6" x2="409.2" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="421.8" y1="398.6" x2="421.8" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="434.3" y1="398.6" x2="434.3" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="446.9" y1="398.6" x2="446.9" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <line x1="459.4" y1="398.6" x2="459.4" y2="428.2" stroke="#b3a594" stroke-width="2"/>
+    <rect x="377.1" y="431.8" width="103.3" height="217.7" rx="0" fill="#1f6cc0" stroke="#1d2433" stroke-width="1.5"/>
+    <path d="M465.7,391.3 L565.3,391.3 L587.5,413.4 L587.5,645.9 L476.8,645.9 L476.8,431.8 L465.7,431.8 Z" fill="#d8b067" stroke="#9e7a3c" stroke-width="2"/>
+    <rect x="484.1" y="439.2" width="48.0" height="203.0" rx="0" fill="#1d2e8f" stroke="#9e7a3c" stroke-width="1.5"/>
+    <defs><linearGradient id="steel" x1="0" x2="1"><stop offset="0" stop-color="#e9ebef"/><stop offset="0.5" stop-color="#9aa0aa"/><stop offset="1" stop-color="#d7dae0"/></linearGradient></defs>
+    <rect x="380.8" y="439.2" width="40.6" height="140.2" rx="2" fill="url(#steel)" stroke="#1d2433" stroke-width="1.2"/>
+  </g>
+  <g font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    <text x="419.6" y="245.4" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="500" fill="#1d2433" letter-spacing="0.4">D.J.</text>
+    <text x="419.6" y="271.4" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="500" fill="#1d2433" letter-spacing="0.4">Booth</text>
+    <text x="336.5" y="348.8" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Exit</text>
+    <text x="1163.1" y="240.0" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Exit</text>
+    <text x="1163.1" y="623.7" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Exit</text>
+    <text x="982.3" y="287.9" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="500" fill="#ffffff" letter-spacing="0.4">Outside DJ</text>
+    <text x="982.3" y="313.8" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="500" fill="#ffffff" letter-spacing="0.4">Table</text>
+    <text x="273.8" y="474.9" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Outside</text>
+    <text x="273.8" y="503.2" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Aft Deck</text>
+    <text x="428.8" y="614.5" text-anchor="middle" dominant-baseline="central" font-size="22" font-weight="600" fill="#ffffff" letter-spacing="0.4">BAR</text>
+    <text x="1997.0" y="415.8" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Outside</text>
+    <text x="1997.0" y="444.2" text-anchor="middle" dominant-baseline="central" font-size="24" font-weight="500" fill="#1d2433" letter-spacing="0.4">Bow</text>
+    <text x="1200.0" y="712.0" text-anchor="middle" font-size="26" font-style="italic" fill="#5d6475" letter-spacing="0.6">Main Deck</text>
+    <g fill="#5d6475" font-size="20" font-weight="600" letter-spacing="4">
+      <text x="200" y="712.0" text-anchor="start">◂ AFT</text>
+      <text x="2200" y="712.0" text-anchor="end">BOW ▸</text>
+    </g>
+    <text x="1200.0" y="860" text-anchor="middle" font-size="64" font-weight="700" fill="#1d2433" letter-spacing="0.5">Main Deck</text>
+  </g>
+</svg>

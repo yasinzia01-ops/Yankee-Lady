@@ -1,0 +1,66 @@
+name: Deploy Yankee Lady Worker
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-yankee-lady-demo-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and deploy to Cloudflare
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.13.0
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Worker
+        run: npm run build
+
+      - name: Upload and deploy Worker version
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          set +e
+          upload_output="$(npx wrangler versions upload \
+            --config dist/server/wrangler.json \
+            --message "GitHub Actions ${GITHUB_SHA}" 2>&1)"
+          upload_status=$?
+          set -e
+          printf '%s\n' "$upload_output"
+
+          version_id="$(printf '%s\n' "$upload_output" | sed -n 's/^Worker Version ID: //p' | tail -n 1)"
+          if [[ -z "$version_id" ]]; then
+            echo "Wrangler did not report the uploaded Worker version ID (exit ${upload_status})." >&2
+            exit 1
+          fi
+
+          if [[ "$upload_status" -ne 0 ]]; then
+            echo "Wrangler uploaded version ${version_id} but could not query the optional preview URL; continuing to production promotion."
+          fi
+
+          npx wrangler versions deploy "${version_id}@100" \
+            --config dist/server/wrangler.json \
+            --message "GitHub Actions ${GITHUB_SHA}" \
+            --yes
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 9e8d2e8ccf35c4e6c565a5bea2271078

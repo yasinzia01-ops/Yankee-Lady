@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Deck plan image placeholder</title>
+  <desc id="desc">A neutral image placeholder ready to be replaced with the final yacht deck plan.</desc>
+  <rect width="1600" height="720" fill="#f2eee5"/>
+  <rect x="2" y="2" width="1596" height="716" fill="none" stroke="#a89572" stroke-width="2"/>
+  <path d="M198 360c73-146 230-210 402-210h527c116 0 208 33 275 98l78 112-78 112c-67 65-159 98-275 98H600c-172 0-329-64-402-210Z" fill="#e7e0d4" stroke="#8b816f" stroke-width="3"/>
+  <path d="M365 360h870M560 150v420M1040 150v420" fill="none" stroke="#b7aa94" stroke-width="2"/>
+  <text x="800" y="330" text-anchor="middle" fill="#213643" font-family="Georgia,serif" font-size="42">DECK PLAN IMAGE</text>
+  <text x="800" y="384" text-anchor="middle" fill="#786b56" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">REPLACE WITH FINAL ARTWORK</text>
+</svg>
