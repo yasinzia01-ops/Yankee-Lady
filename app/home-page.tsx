@@ -10,6 +10,8 @@ import { StoryStack } from './story-stack';
 import { YachtGallery } from './yachts/yacht-gallery';
 import { HeroVideo } from './hero-video';
 import { CompanyShowcase } from './company-showcase';
+import { LandingSplit } from './landing/landing-blocks';
+import './landing/landing.css';
 
 const quoteUrl = '/venue';
 const testimonialQuote = 'The venue was breathtaking. Every corner was picture-perfect and created an incredible ambience for our wedding. Being on the water made it even better.';
@@ -22,13 +24,13 @@ const storyImages = [
   { src: '/gallery/uicon-event-4.jpg', label: 'On deck', alt: 'Event-ready dining space aboard Yankee Lady' },
   { src: '/gallery/dji-20250912182638-0045-d-scaled.jpg', label: 'Toronto Harbour', alt: 'Aerial view of the Toronto skyline and harbour islands' },
 ];
-import { faqs, searchQuestions } from './faq-data';
+import { faqs, homeExtraQuestions, searchQuestions } from './faq-data';
 import { FaqList } from './shared-patterns';
 import { faqSchema, JsonLd } from './seo';
 import type { HomeCopy } from './home-variants';
 
 export function HomePage({ copy = {} }: { copy?: HomeCopy }) {
-  const questions = [...searchQuestions, ...(copy.questions ?? faqs)];
+  const questions = [...searchQuestions, ...(copy.questions ?? [...faqs, ...homeExtraQuestions])];
   return (
     <main><JsonLd data={faqSchema(questions)} /><link rel="preconnect" href="https://www.youtube-nocookie.com" crossOrigin="anonymous" /><link rel="preload" as="image" href="/media/home-hero-cover-v1.avif" type="image/avif" fetchPriority="high" />
       <MotionObserver />
@@ -37,9 +39,9 @@ export function HomePage({ copy = {} }: { copy?: HomeCopy }) {
         <SiteHeader home />
         <div className="hero-content" id="top">
           <div className="hero-brand"><span className="sr-only">Yankee Lady Yacht Charters</span><BrandLogo /></div>
-          <p className="eyebrow">{copy.eyebrow ?? 'Private events on Toronto Harbour'}</p>
+          <p className="eyebrow">{copy.eyebrow ?? 'Toronto yacht rental & private event venue'}</p>
           <h1 id="hero-title"><span className="hero-line"><span>{copy.heroLead ?? 'Toronto’s most'}</span></span>{' '}<em className="hero-line"><span>{copy.heroEmphasis ?? 'unforgettable venue.'}</span></em></h1>
-          <p className="hero-intro">{copy.heroIntro ?? 'A private yacht charter venue on Toronto Harbour for weddings, corporate events and milestone celebrations.'}</p>
+          <p className="hero-intro">{copy.heroIntro ?? 'A crewed private yacht on Toronto Harbour for weddings, corporate events and milestone celebrations, with room for up to 280 guests.'}</p>
           <div className="hero-actions"><Link prefetch={false} className="button button-primary" href={quoteUrl}>Plan your event <ArrowUpRight size={17} strokeWidth={1.5} /></Link></div>
         </div>
         <FamilyOwnedBadge />
@@ -63,6 +65,30 @@ export function HomePage({ copy = {} }: { copy?: HomeCopy }) {
         </div>
         <YachtGallery name="Yankee Lady" numeral="III" showHeading={false} />
       </section>
+
+      <LandingSplit
+        id="crewed-charter"
+        image={{ src: '/gallery/2025-aerial-lake-ontario.webp', alt: 'Aerial view of Yankee Lady cruising through the Toronto Islands' }}
+        label="A crewed yacht rental, built for events"
+        title={<>More than a boat.<br /><em>A private event venue.</em></>}
+        body="Many Toronto yacht rentals are small boats for about a dozen guests, booked by the hour. Yankee Lady is a crewed 113-foot event yacht with three decks, a licensed bar, a climate-controlled salon and room for up to 280 guests. A licensed captain and first mate run the harbour, while our events team shapes catering, bar, décor and entertainment into one tailored proposal."
+        list={['Up to 280 guests cocktail-style or 150 seated', 'Licensed captain & first mate aboard', 'Catering, licensed bar, DJ & décor in one proposal', 'Boarding at Queens Quay West, downtown Toronto']}
+      >
+        <Link prefetch={false} className="text-link dark-link" href="/weddings">Yacht weddings <ArrowRight size={16} strokeWidth={1.5} /></Link>
+        <Link prefetch={false} className="text-link dark-link" href="/corporate-events">Corporate events <ArrowRight size={16} strokeWidth={1.5} /></Link>
+        <Link prefetch={false} className="text-link dark-link" href="/events">Private parties <ArrowRight size={16} strokeWidth={1.5} /></Link>
+      </LandingSplit>
+
+      <LandingSplit
+        id="route"
+        tone="dark"
+        reverse
+        image={{ src: '/gallery/yankee-lady-harbour-cn-tower.webp', alt: 'Yankee Lady on Toronto Harbour with the downtown skyline and CN Tower behind' }}
+        label="Where you’ll cruise"
+        title={<>Toronto,<br /><em>from the water.</em></>}
+        body="Every charter begins at Queens Quay West and follows a tailored route around Toronto Harbour. The captain shapes each cruise around the weather, harbour conditions and the timing of your event, so your guests take in the Toronto Islands, the open water of Lake Ontario and the downtown skyline."
+        list={['Queens Quay West: private boarding downtown', 'Toronto Islands: island views', 'Eastern harbour: an open-water backdrop', 'Western harbour: city skyline views']}
+      />
 
       <section className="introduction" id="story">
         <div className="section-kicker" data-reveal><span>03</span> An uncommon setting</div>

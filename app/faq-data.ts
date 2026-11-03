@@ -13,3 +13,9 @@ export const faqs = [
   { question: 'How does catering and bar service work?', answer: 'Menus and beverage service are tailored to your guest count and event style. A fully licensed bar is available. Preferred caterers are recommended; outside catering may be approved when licensing and staffing requirements are met.' },
   { question: 'What happens if it rains?', answer: 'Events take place rain or shine. Our venue includes a climate-controlled interior, while extreme-weather decisions remain with the captain.' },
 ];
+
+export const homeExtraQuestions = [
+  { question: 'Where does the yacht cruise during an event?', answer: 'Charters begin at Queens Quay West and follow a tailored route around Toronto Harbour, with views of the Toronto Islands, the open water of the eastern harbour and the city skyline to the west. The captain adapts each cruise to the weather, harbour conditions and the timing of your event.' },
+  { question: 'How do guests get to the dock by transit?', answer: 'Take the subway to Union Station, then the streetcar along Queens Quay: get off at Rees Street for Yankee Lady III, or take the 509 to Dan Leckie Way for Yankee Lady IV. Green P parking at 545 Lake Shore Blvd West is nearby but is not reserved or included.' },
+  { question: 'Is Yankee Lady Yacht Charters the same as Yankee Lady Cruises?', answer: 'Yes. Yankee Lady Yacht Charters, also known as Yankee Lady Cruises, is the family-owned Toronto company behind Yankee Lady, founded in 1984.' },
+];

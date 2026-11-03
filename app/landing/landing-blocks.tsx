@@ -11,7 +11,7 @@ import { FaqList, type FaqEntry } from '../shared-patterns';
 type Stat = { value: string; label: string; leaf?: boolean };
 type Photo = { src: string; alt: string; position?: string };
 
-export function LandingHero({ eyebrow, title, intro, image, position = 'center', stats, cta = 'Check your date', compactStats = false }: { eyebrow: string; title: ReactNode; intro: string; image: string; position?: string; stats: Stat[]; cta?: string; compactStats?: boolean }) {
+export function LandingHero({ eyebrow, title, intro, image, position = 'center', stats, cta = 'Check your date', ctaHref = '#availability', compactStats = false }: { eyebrow: string; title: ReactNode; intro: string; image: string; position?: string; stats: Stat[]; cta?: string; ctaHref?: string; compactStats?: boolean }) {
   return <section className={`interior-hero lp-hero${compactStats ? ' lp-hero-compact' : ''}`} style={{ backgroundImage: `linear-gradient(90deg, rgba(3,15,24,.9) 0%, rgba(3,15,24,.6) 45%, rgba(3,15,24,.18) 100%), linear-gradient(180deg, rgba(3,15,24,.55) 0%, transparent 32%, rgba(3,15,24,.8) 100%), ${mediaCssImage(image)}`, backgroundPosition: position }}>
     <SiteHeader />
     <div className="interior-hero-copy lp-hero-copy" data-reveal>
@@ -19,7 +19,7 @@ export function LandingHero({ eyebrow, title, intro, image, position = 'center',
       <h1>{title}</h1>
       <p>{intro}</p>
       <div className="hero-actions interior-actions">
-        <a className="button button-primary" href="#availability">{cta} <ArrowUpRight size={17} strokeWidth={1.5} /></a>
+        <a className="button button-primary" href={ctaHref}>{cta}<ArrowUpRight size={17} strokeWidth={1.5} /></a>
         <a className="button button-ghost" href="tel:+14168680000"><Phone size={16} strokeWidth={1.5} aria-hidden="true" /> 416 868 0000</a>
       </div>
     </div>
@@ -70,8 +70,8 @@ export function LandingJourney({ items }: { items: (Photo & { step: string; titl
   </ol>;
 }
 
-export function LandingEnquiry({ label, title, intro, steps }: { label: string; title: ReactNode; intro: string; steps: { title: string; body: string }[] }) {
-  return <section className="lp-enquiry" id="plan" aria-labelledby="plan-title">
+export function LandingEnquiry({ label, title, intro, steps, solid = false }: { label: string; title: ReactNode; intro: string; steps: { title: string; body: string }[]; solid?: boolean }) {
+  return <section className={`lp-enquiry${solid ? ' lp-enquiry-solid' : ''}`} id="plan" aria-labelledby="plan-title">
     <div className="lp-enquiry-copy">
       <div className="lp-enquiry-head">
         <p className="lp-label" data-reveal>{label}</p>

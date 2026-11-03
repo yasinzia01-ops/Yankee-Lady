@@ -2,6 +2,10 @@
 .lp-page { background:var(--ivory); color:var(--ink); }
 .lp-page :is(.closing-cta,.page-cta,.testimonial) { color:var(--ivory); }
 
+/* Testimonial with a solid background instead of the harbour photo. */
+.testimonial.testimonial-plain { background:#051b29; }
+.testimonial.testimonial-plain::before { content:none; }
+
 /* Hero */
 .lp-hero { display:flex; flex-direction:column; min-height:clamp(700px,94svh,920px); background-size:cover; background-repeat:no-repeat; }
 .lp-hero .lp-hero-copy { flex:1; display:flex; flex-direction:column; justify-content:center; padding:clamp(60px,9vh,110px) 0 56px; }
@@ -104,6 +108,7 @@
 /* Enquiry: dark stage, raised form card, next steps beside it */
 .lp-enquiry { position:relative; isolation:isolate; display:grid; grid-template-columns:minmax(0,1fr) minmax(400px,520px); gap:clamp(48px,7vw,120px); align-items:start; padding:clamp(90px,10vw,150px) var(--ui-section-inline); overflow:hidden; background:#0a202f; color:var(--ivory); scroll-margin-top:var(--site-header-height); }
 .lp-enquiry::before { content:''; position:absolute; inset:0; z-index:-1; background:image-set(url('/media/originals-cruising-1b001dbe60-1600.avif') type('image/avif'),url('/media/originals-cruising-1b001dbe60-1600.webp') type('image/webp')) center 40%/cover no-repeat; opacity:.04; filter:grayscale(1); pointer-events:none; }
+.lp-enquiry-solid::before { display:none; }
 .lp-enquiry-copy { position:sticky; top:calc(var(--site-header-height) + 48px); max-width:560px; }
 .lp-enquiry .lp-label { color:#d6ba7e; }
 .lp-enquiry h2 em { color:var(--champagne); }
@@ -240,3 +245,6 @@
 
 /* The landing form card already supplies its own heading and help text. */
 .lp-form-card .perfect-venue-booking-heading,.lp-form-card .booking-aside-help { display:none; }
+
+/* Cross-links between the landing pages, shown beneath a section heading. */
+.lp-crosslinks { display:flex; flex-wrap:wrap; gap:12px 32px; margin:0 0 40px; }

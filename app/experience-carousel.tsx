@@ -7,10 +7,10 @@ import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties, FocusEvent } from 'react';
 
 const experiences = [
-  { label: 'Wedding cruises', title: <>Say “I do”<br />against the skyline.</>, link: 'Explore weddings', image: '/gallery/event-5.jpg', className:'experience-wedding' },
-  { label: 'Corporate events', title: <>Give the room<br />a better view.</>, link: 'Explore corporate', image: '/gallery/event-2.jpg', className:'' },
+  { label: 'Wedding cruises', title: <>Say “I do”<br />against the skyline.</>, link: 'Explore yacht weddings', image: '/gallery/event-5.jpg', className:'experience-wedding' },
+  { label: 'Corporate events', title: <>Give the room<br />a better view.</>, link: 'Explore corporate events', image: '/gallery/event-2.jpg', className:'' },
   { label: 'Catering & dining', title: <>A menu made<br />for the moment.</>, link: 'Explore catering', image: '/gallery/yacht-catering-buffet.jpg', className:'' },
-  { label: 'Private celebrations', title: <>Make a milestone<br />feel monumental.</>, link: 'Explore celebrations', image: '/gallery/yacht-fruit-display.jpg', className:'' },
+  { label: 'Private celebrations', title: <>Make a milestone<br />feel monumental.</>, link: 'Explore private parties', image: '/gallery/yacht-fruit-display.jpg', className:'' },
 ];
 
 export function ExperienceCarousel() {
